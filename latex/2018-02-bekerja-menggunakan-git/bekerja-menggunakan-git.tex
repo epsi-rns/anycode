@@ -1,0 +1,405 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[bahasa]{babel}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\title{\textbf{Menggunakan Git untuk Bekerja dengan Beberapa Komputer}}
+\date{2018-01-15}
+\author{E.R. Nurwijayadi S.T.}
+
+
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,        % color of internal links
+}
+
+\lstdefinestyle{BashInputStyle}{
+  language=bash,
+  basicstyle=\small\sffamily,
+  numbers=none,
+  numberstyle=\tiny,
+  numbersep=3pt,
+  frame=tb,
+  columns=fullflexible,
+  backgroundcolor=\color{yellow!35},
+  linewidth=1.1\linewidth,
+  xleftmargin=0.0\linewidth
+}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\listoffigures
+% \listoftables
+
+\pagenumbering{gobble}
+\newpage
+
+\pagenumbering{arabic}
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+
+\section{Kata Pengantar}
+
+\begin{quote}
+Berkas ini dapat juga dijadikan panduan bagi pemula.
+\end{quote}
+
+Penulis telah sekian lama bekerja menggunakan \textbf{git}
+untuk menulis artikel dalam blog pribadi, dengan menggunakan satu notebook.
+Tiba saatnya penulis beranjak dari bekerja menggunakan satu notebook,
+menjadi bekerja di mana saja, kapan saja.
+Dalam artikel ini, penulis menggunakan contoh kasus
+bekerja antara rumah dan kantor, yaitu
+
+\begin{itemize}
+\item Komputer pertama di rumah dan,
+\item Komputer kedua di kantor.
+\end{itemize}
+
+Tidak perlu lagi menjinjing notebook kemana-mana.
+Dari data terpusat di satu notebook, menjadi data terpusat di github,
+untuk dipakai di berbagai tempat.
+
+Berikut langkah-langkah yang perlu dicapai.
+
+\begin{itemize}
+\item Membikin Repository: Di akun github
+\item Komputer Pertama: \textbf{push} untuk \textbf{commit} yang pertama kali, dengan komputer pertama.
+\item Segarkan Perambah: Refresh browser, untuk memeriksa hasilnya.
+\item Komputer Kedua: \textbf{pull} repository yang baru dibikin, dengan komputer kedua, dan melakukan perubahan.
+\item Kembali ke komputer Pertama: \textbf{pull} perubahan yang baru saja dibikin, dengan komputer pertama.
+\end{itemize}
+
+\begin{quote}
+Jangan lupa berdoa, sebelum memulai segala sesuatunya.
+\end{quote}
+
+\subsection{Referensi}
+
+Berkas ini adalah bentuk terjemahan dari artikel berbahasa Inggris yang sebelumnya telah ditulis di dalam Blog.
+
+\href{http://epsi-rns.github.io/opensource/2018/01/15/using-git.html}{Using Git for Working Between Computer}
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+\newpage
+
+\section{Membuat Repository}
+
+\begin{quote}
+\textbf{push} untuk \textbf{commit} yang pertama kali, dengan komputer pertama.
+\end{quote}
+
+Pembaca harus melakukan secara manual.
+
+\begin{itemize}
+\item Membikin akun di \textbf{\href{https://github.com}{github.com}}, Lalu
+\item Membikin repository, misalnya kita beri nama \textbf{anycode}
+\end{itemize}
+
+Hasilnya akan tampak sebagaimana berikut di bawah:
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{github-create-account.png}
+  \caption{Membuat Repository.}
+  \label{fig:git.create}
+\end{figure}
+
+% Gambar \ref{fig:git.create} Membuat Repository.
+
+\begin{quote}
+Satu langkah kecil, untuk loncatan yang lebih besar.
+\end{quote}
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+\newpage
+
+\section{Komputer Pertama: Rumah}
+
+\begin{quote}
+\textbf{push} untuk \textbf{commit} yang pertama kali, dengan komputer pertama.
+\end{quote}
+
+\newcommand{\shellcmd}[1]{\indent\indent\texttt{\$ #1}\\}
+
+\shellcmd{git push ...}
+
+Ikuti saja langkah di bawah, yaitu panduan yang umum dari github.
+
+\begin{itemize}
+\item Bikinlah directory dengan nama apa saja sebagai directory kerja kita,
+misalnya kita beri nama \textbf{anycode}
+\item Lalu bikinlah berkas \textbf{README.md} dengan isi bebas.
+Isilah dengan apa saja yang terlintas di kepala pembaca.
+Silahkan memakai \textit{text editor} apa saja yang disukai misalnya:
+\textbf{geany}, \textbf{gedit}, \textbf{kate}, \textbf{emacs} atau \textbf{ViM}.
+\end{itemize}
+
+\newcommand*{\Package}[1]{\texttt{#1}}%
+
+\begin{lstlisting}[style=BashInputStyle]
+    % cd githublab
+
+    % mkdir anycode
+
+    % cd anycode
+
+    % touch README.md
+
+    % geany README.md
+
+    % git init
+    Initialized empty Git repository in /home/epsi/githublab/anycode/.git/
+\end{lstlisting}
+
+Bilamana mana langah ini sudah dilalui dengan benar,
+dan \textbf{README.md} telah berisi sesuatu, maka lanjutkanlah dengan bersemangat.
+
+\begin{lstlisting}[style=BashInputStyle]
+    % git add README.md
+
+    % git status
+    On branch master
+
+    Initial commit
+
+    Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+
+    	new file:   README.md
+
+    % git commit -m 'I love you, honey!'
+    [master (root-commit) 6119e49] I love you, honey!
+     1 file changed, 2 insertions(+)
+     create mode 100644 README.md
+\end{lstlisting}
+
+Dalam berbagai tutorial di internet kita biasanya memakai
+kata \textbf{origin} sebagai nama dari \textit{remote repository}.
+Namun sebetulnya \textit{remote repository} ini dapat dinamai sesuka hati kita,
+misalnya \textbf{cinta}.
+
+\begin{lstlisting}[style=BashInputStyle]
+    % git remote add cinta https://github.com/epsi-rns/anycode.git
+
+    % git push --set-upstream cinta master
+    Username for 'https://github.com': epsi-rns
+    Password for 'https://epsi-rns@github.com': 
+    Counting objects: 3, done.
+    Delta compression using up to 2 threads.
+    Compressing objects: 100% (2/2), done.
+    Writing objects: 100% (3/3), 270 bytes | 0 bytes/s, done.
+    Total 3 (delta 0), reused 0 (delta 0)
+    To https://github.com/epsi-rns/anycode.git
+     * [new branch]      master -> master
+    Branch master set up to track remote branch master from cinta.
+\end{lstlisting}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{gitcli-first-process-account.png}
+  \caption{Melakukan Push di komputer Pertama.}
+  \label{fig:git.first}
+\end{figure}
+
+% Gambar \ref{fig:git.first} Komputer Pertama.
+
+\newpage
+
+Perhatikan:
+
+\shellcmd{git push -u cinta master}
+
+Arti perintah di atas adalah kita mendorong isi repository local
+ke \textit{remote} yang kita tandai bernama \textbf{cinta},
+tepatnya ke \textbf{branch} di github yang bernama \textbf{master}.
+
+\textbf{branch} di github yang bernama \textbf{master} ini,
+telah ada secara default saat repository dibikin.
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+
+\section{Segarkan Perambah (Refresh Browser)}
+
+\begin{quote}
+Segarkan Perambah, untuk memeriksa hasilnya.
+\end{quote}
+
+Mari kita lihat hasilnya di \textbf{github}.
+Kira-kira akan tampak sebagai berikut:
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{github-refresh-browser.png}
+  \caption{Menyegarkan Perambah.}
+  \label{fig:git.refresh}
+\end{figure}
+
+% Gambar \ref{fig:git.refresh} Segarkan Perambah.
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+\newpage
+
+\section{Komputer Kedua: Kantor}
+
+\begin{quote}
+{pull} repository yang baru dibikin, dengan komputer kedua, dan lakukan perubahan.
+\end{quote}
+
+Sekarang berpindahlah ke komputer lain.
+Untuk melakukan uji coba, sebetulnya tidak harus menggunakan komputer lain,
+namun cukup memakai directory lain.
+
+\begin{itemize}
+\item Bikinlah directory dengan nama apa saja sebagai directory kerja yang baru,
+misalnya kita beri nama \textbf{mycode}
+\item Kemudian lakukan \textbf{pull}.
+\item Lalu ubahlah isi repository, lakukan \textbf{commit}, lalu \textbf{push}
+\end{itemize}
+
+Pada saat melakukan \textbf{pull}, sekali lagi tidak harus
+memakai kata \textbf{origin}, namun dapat dinamai sesuka hati kita,
+misalnya \textbf{rindu}.
+
+\begin{lstlisting}[style=BashInputStyle]
+    % mkdir mycode
+
+    % cd mycode
+
+    % git init
+    Initialized empty Git repository in /home/epsi/githublab/mycode/.git/
+
+    % git remote add rindu https://github.com/epsi-rns/anycode
+
+    % git remote --verbose
+    rindu	https://github.com/epsi-rns/anycode (fetch)
+    rindu	https://github.com/epsi-rns/anycode (push)
+
+    % git pull rindu master
+    remote: Counting objects: 3, done.
+    remote: Compressing objects: 100% (2/2), done.
+    remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+    Unpacking objects: 100% (3/3), done.
+    From https://github.com/epsi-rns/anycode
+     * branch            master     -> FETCH_HEAD
+     * [new branch]      master     -> rindu/master
+     % ls -l
+    total 4
+    -rw-r--r-- 1 epsi users 56 Jan 23 03:10 README.md
+\end{lstlisting}
+
+\newpage
+
+Ubahlah sesuatu di dalam repository, misalnya dengan
+mengubah isi \textbf{README.md}. 
+
+\begin{lstlisting}[style=BashInputStyle]
+    % geany README.md
+
+    % touch TO-DO.md
+
+    % geany TO-DO.md
+\end{lstlisting}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{gitcli-second-change-content.png}
+  \caption{Mengubah Isi di Komputer Kedua.}
+  \label{fig:git.second}
+\end{figure}
+
+% Gambar \ref{fig:git.second} Komputer Kedua.
+
+\newpage
+
+Kemudian lakukan \textbf{commit}
+dengan keterangan yang jelas misalnya \textbf{beli bunga}.
+Kemudian lakukan \textbf{pull} ke \textbf{github}.
+
+\begin{lstlisting}[style=BashInputStyle]
+    % git add --all
+
+    % git commit -m 'TO DO: Beli Bunga'
+    [master 5c517cc] TO DO: Beli Bunga
+     2 files changed, 2 insertions(+), 1 deletion(-)
+     create mode 100644 TO-DO.md
+     % git push -u rindu master
+    Username for 'https://github.com': epsi-rns
+    Password for 'https://epsi-rns@github.com': 
+    Counting objects: 4, done.
+    Delta compression using up to 2 threads.
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 370 bytes | 0 bytes/s, done.
+    Total 4 (delta 0), reused 0 (delta 0)
+    To https://github.com/epsi-rns/anycode
+       6119e49..5c517cc  master -> master
+    Branch master set up to track remote branch master from rindu.
+\end{lstlisting}
+
+\begin{quote}
+Periksa hasil perubahannya di perambah.
+\end{quote}
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+\newpage
+
+\section{Kembali ke Komputer Pertama: Rumah}
+
+\begin{quote}
+\textbf{pull} perubahan yang baru saja dibikin, dengan komputer pertama.
+\end{quote}
+
+Sekarang, kembalilah ke komputer pertama ke dalam \textbf{anycode} directory.
+
+Untuk melihat perubahan yang terkini dar github, cukup hanya dengan melakukan
+\textbf{pull}.
+
+\begin{lstlisting}[style=BashInputStyle]
+    % cd anycode
+
+    % git pull
+    remote: Counting objects: 4, done.
+    remote: Compressing objects: 100% (3/3), done.
+    remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+    Unpacking objects: 100% (4/4), done.
+    From https://github.com/epsi-rns/anycode
+       6119e49..5c517cc  master     -> cinta/master
+    Updating 6119e49..5c517cc
+    Fast-forward
+     README.md | 2 +-
+     TO-DO.md  | 1 +
+     2 files changed, 2 insertions(+), 1 deletion(-)
+     create mode 100644 TO-DO.md
+\end{lstlisting}
+
+Repository di komputer pertama (local) sudah diperbarui.
+
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{gitcli-first-pull.png}
+  \caption{Melakukan Pull di komputer Pertama.}
+  \label{fig:git.first.pull}
+\end{figure}
+
+% Gambar \ref{fig:git.first.pull} Kembali ke Komputer Pertama.
+
+\begin{lstlisting}[style=BashInputStyle]
+    % ls -l
+    total 8
+    -rw-r--r-- 1 epsi users 70 Jan 23 04:06 README.md
+    -rw-r--r-- 1 epsi users 18 Jan 23 04:06 TO-DO.md
+\end{lstlisting}
+
+% -- -- -- -- -- -- -- -- -- -- -- --
+
+\section{Penutup}
+
+Terimakasih telah membaca.
+Semoga bermanfaat.
+
+
+
+
+\end{document}
