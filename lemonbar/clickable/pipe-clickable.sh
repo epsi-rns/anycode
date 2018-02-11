@@ -3,7 +3,7 @@
 generated_output() {
     # endless loop
     while :; do 
-      time=$(date +'%a %b %d %H:%M:%S')
+      time=$(mpc current --format "%title% - %artist%")
       echo "%{A:~/Documents/misc/pop-art.sh :}${time}%{A}"
       sleep 1
     done
