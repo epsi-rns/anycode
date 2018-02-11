@@ -1,0 +1,70 @@
+Fork di beberapa bahasa
+
+
+--bash--
+
+function detach_dzen2() {
+	# not exactly a fork
+    run_dzen2 &
+}
+
+--perl--
+
+sub detach_dzen2 { 
+    my $pid = fork;
+    return if $pid;     # in the parent process
+    
+    run_dzen2();
+    exit; 
+}
+
+--python--
+
+def detach_dzen2():
+    pid = os.fork()
+    
+    if pid == 0:
+        try:
+            run_dzen2()
+        finally:
+            os.kill(pid, signal.SIGTERM)
+
+--ruby--
+
+def detach_dzen2()
+  # warning: Signal.trap is application wide
+  Signal.trap("PIPE", "EXIT")
+    
+  pid = fork { run_dzen2() }
+  Process.detach(pid)
+end
+
+--php--
+
+function detach_dzen2() 
+{ 
+    $pid = pcntl_fork();
+    
+    switch($pid) {         
+         case -1 : die('could not fork'); // fork errror         
+         case 0  : run_dzen2(); break;    // we are the child
+         default : return $pid;           // we are the parent             
+    }    
+}
+
+--lua--
+
+function detach_dzen2()
+    local pid = posix.fork()
+
+    if pid == 0 then -- this is the child process
+        run_dzen2()
+    else             -- this is the parent process
+        -- nothing
+    end
+end
+
+--haskell--
+
+main = do
+    forkProcess $ runDzen2
