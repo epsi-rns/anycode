@@ -5,7 +5,7 @@ use strict;
 use Time::Piece;
 use IO::Pipe;
 
-my $cmdout  = "less"; # or dzen2
+my $cmdout  = "lemonbar"; # or dzen2
 
 my $pipeout = IO::Pipe->new();
 my $handle = $pipeout->writer($cmdout);

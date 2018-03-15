@@ -9,7 +9,7 @@ use File::Basename;
 my $dirname = dirname(__FILE__);
 my $path    = "$dirname/../assets";
 my $cmdin   = "conky -c $path/conky.lua";
-my $cmdout  = "less"; # or dzen2
+my $cmdout  = "dzen2 -ta l"; # or dzen2
 
 open my $pipein, "-|", $cmdin
     or die "Could not open filehandle: $!";

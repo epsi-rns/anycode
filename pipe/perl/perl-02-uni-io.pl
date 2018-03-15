@@ -10,7 +10,7 @@ use IO::Pipe;
 my $dirname = dirname(__FILE__);
 my $path    = "$dirname/../assets";
 my $cmdin   = "conky -c $path/conky.lua";
-my $cmdout  = "less"; # or dzen2
+my $cmdout  = "dzen2 -ta l"; # or dzen2
 
 my $pipein  = IO::Pipe->new();
 my $hnd_in  = $pipein->reader($cmdin);
