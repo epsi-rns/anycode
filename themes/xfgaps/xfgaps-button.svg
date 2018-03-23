@@ -15,8 +15,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="2bmin-button.svg"
-   inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/2bmin.png"
+   sodipodi:docname="xfgaps-button.svg"
+   inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfgaps.png"
    inkscape:export-xdpi="900"
    inkscape:export-ydpi="900">
   <defs
@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.9966667"
-     inkscape:cx="150"
-     inkscape:cy="50"
+     inkscape:zoom="7.48125"
+     inkscape:cx="86.507066"
+     inkscape:cy="48.732665"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -58,7 +58,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-952.3622)"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -95,7 +95,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-left-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-left-inactive.png"
        y="-20"
        x="0"
        height="10"
@@ -105,7 +105,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-inactive.png"
        style="opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4328"
        width="20"
@@ -115,7 +115,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-right-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-right-inactive.png"
        style="opacity:1;fill:#2196f3;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4330"
        width="10"
@@ -125,7 +125,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/left-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/left-inactive.png"
        style="opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4332"
        width="10"
@@ -139,13 +139,13 @@
        height="14"
        x="0"
        y="-54"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/top-left-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/top-left-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/right-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/right-inactive.png"
        y="-40"
        x="30"
        height="20"
@@ -155,7 +155,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-1-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-1-inactive.png"
        y="-54"
        x="10"
        height="14"
@@ -165,7 +165,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/top-right-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/top-right-inactive.png"
        y="-54"
        x="30"
        height="14"
@@ -179,13 +179,13 @@
        height="14"
        x="20"
        y="-54"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-2-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-2-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-3-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-3-inactive.png"
        y="-54"
        x="44"
        height="14"
@@ -199,13 +199,13 @@
        height="14"
        x="54"
        y="-54"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-4-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-4-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-5-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-5-inactive.png"
        y="-54"
        x="64"
        height="14"
@@ -219,7 +219,7 @@
        width="20"
        id="rect4173-3"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -229,7 +229,7 @@
        height="14"
        x="80"
        y="-46"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -239,7 +239,7 @@
        height="14"
        x="100"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-toggled-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-toggled-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -249,7 +249,7 @@
        width="20"
        id="rect4233-6"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-toggled-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-toggled-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -259,7 +259,7 @@
        width="20"
        id="rect4239"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/hide-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/hide-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -269,7 +269,7 @@
        height="14"
        x="120"
        y="-46"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/hide-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/hide-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -279,7 +279,7 @@
        height="14"
        x="140"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -289,7 +289,7 @@
        width="20"
        id="rect4249"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -299,7 +299,7 @@
        height="14"
        x="160"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-toggled-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-toggled-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -309,7 +309,7 @@
        width="20"
        id="rect5440"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-toggled-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-toggled-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -319,7 +319,7 @@
        width="20"
        id="rect5442"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/close-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/close-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -329,7 +329,7 @@
        height="14"
        x="180"
        y="-46"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/close-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/close-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -339,7 +339,7 @@
        width="20"
        id="rect5787"
        style="display:inline;opacity:1;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -349,7 +349,7 @@
        height="14"
        x="200"
        y="-46"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -359,7 +359,7 @@
        height="14"
        x="220"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -369,7 +369,7 @@
        width="20"
        id="rect5793"
        style="display:inline;opacity:1;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -393,7 +393,7 @@
        width="20"
        id="rect6148"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -403,7 +403,7 @@
        height="14"
        x="100"
        y="-18"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-toggled-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-toggled-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -413,7 +413,7 @@
        width="20"
        id="rect6160"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/hide-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/hide-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -423,7 +423,7 @@
        height="14"
        x="140"
        y="-18"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -433,7 +433,7 @@
        height="14"
        x="160"
        y="-18"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-toggled-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-toggled-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -443,7 +443,7 @@
        width="20"
        id="rect6192"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/close-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/close-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -453,7 +453,7 @@
        width="20"
        id="rect6214"
        style="display:inline;opacity:1;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -463,7 +463,7 @@
        height="14"
        x="220"
        y="-18"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -480,7 +480,7 @@
        height="14"
        x="80"
        y="-32"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -490,7 +490,7 @@
        width="20"
        id="rect6236"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/shade-toggled-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/shade-toggled-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -500,7 +500,7 @@
        height="14"
        x="120"
        y="-32"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/hide-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/hide-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -510,7 +510,7 @@
        width="20"
        id="rect6240"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -520,7 +520,7 @@
        width="20"
        id="rect6248"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/maximize-toggled-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/maximize-toggled-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -530,7 +530,7 @@
        height="14"
        x="180"
        y="-32"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/close-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/close-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -542,7 +542,7 @@
        y="-32"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-prelight.png" />
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-prelight.png" />
     <rect
        y="-32"
        x="220"
@@ -552,7 +552,7 @@
        style="display:inline;opacity:1;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-prelight.png" />
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-prelight.png" />
     <rect
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6258"
@@ -633,7 +633,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-active.png"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4643"
        width="20"
@@ -643,7 +643,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-pressed.png"
        y="-46"
        x="200"
        height="14"
@@ -653,7 +653,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-inactive.png"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4647"
        width="20"
@@ -663,7 +663,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-prelight.png"
        y="-32"
        x="200"
        height="14"
@@ -673,7 +673,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-active.png"
        style="display:inline;opacity:1;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4673"
        width="20"
@@ -683,7 +683,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-pressed.png"
        y="-46"
        x="220"
        height="14"
@@ -693,7 +693,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-inactive.png"
        style="display:inline;opacity:1;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4677"
        width="20"
@@ -701,7 +701,7 @@
        x="220"
        y="-18" />
     <rect
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-prelight.png"
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        y="-32"
@@ -717,7 +717,7 @@
        width="20"
        id="rect4681"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -727,7 +727,7 @@
        height="14"
        x="220"
        y="-46"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -737,7 +737,7 @@
        width="20"
        id="rect4685"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -747,7 +747,7 @@
        height="14"
        x="220"
        y="-32"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/stick-toggled-prelight.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/stick-toggled-prelight.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -757,7 +757,7 @@
        width="20"
        id="rect4711"
        style="display:inline;opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/menu-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/menu-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -767,7 +767,7 @@
        height="14"
        x="240"
        y="-46"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/menu-pressed.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/menu-pressed.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -777,7 +777,7 @@
        width="20"
        id="rect4715"
        style="display:inline;opacity:1;fill:#64b5f6;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/menu-inactive.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/menu-inactive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -789,7 +789,7 @@
        y="-32"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/menu-prelight.png" />
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/menu-prelight.png" />
     <rect
        style="opacity:1;fill:#2196f3;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4419"
@@ -797,7 +797,7 @@
        height="10"
        x="0"
        y="30"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-left-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-left-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -807,7 +807,7 @@
        width="20"
        id="rect4421"
        style="opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -817,7 +817,7 @@
        width="10"
        id="rect4423"
        style="opacity:1;fill:#2196f3;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-right-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-right-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -827,13 +827,13 @@
        width="10"
        id="rect4425"
        style="opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/left-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/left-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/top-left-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/top-left-active.png"
        y="-4"
        x="0"
        height="14"
@@ -847,7 +847,7 @@
        height="20"
        x="30"
        y="10"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/right-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/right-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -857,7 +857,7 @@
        height="14"
        x="10"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-1-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-1-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -867,13 +867,13 @@
        height="14"
        x="30"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/top-right-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/top-right-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-2-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-2-active.png"
        y="-4"
        x="20"
        height="14"
@@ -887,13 +887,13 @@
        height="14"
        x="44"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-3-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-3-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-4-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-4-active.png"
        y="-4"
        x="54"
        height="14"
@@ -907,7 +907,7 @@
        height="14"
        x="64"
        y="-4"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/title-5-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/title-5-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>
@@ -916,12 +916,11 @@
      id="layer4"
      inkscape:label="Theme"
      style="display:inline"
-     transform="translate(0,20)"
-     sodipodi:insensitive="true">
+     transform="translate(0,20)">
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4240"
        width="10"
@@ -935,13 +934,13 @@
        width="10"
        id="rect4267"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4275"
        width="10"
@@ -955,13 +954,13 @@
        width="160"
        id="rect4740"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4742"
        width="160"
@@ -971,7 +970,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4746"
        width="160"
@@ -985,13 +984,13 @@
        width="16"
        id="rect4748"
        style="display:inline;opacity:1;fill:#fff176;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#fff176;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4750"
        width="16"
@@ -1001,7 +1000,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#ffeb3b;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4752"
        width="16"
@@ -1015,7 +1014,7 @@
        width="16"
        id="rect4754"
        style="display:inline;opacity:1;fill:#fbc02d;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -1025,13 +1024,13 @@
        width="16"
        id="rect4756"
        style="display:inline;opacity:1;fill:#fbc02d;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#f57f17;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4758"
        width="16"
@@ -1041,7 +1040,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#fff9c4;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4760"
        width="16"
@@ -1055,13 +1054,13 @@
        width="16"
        id="rect4762"
        style="display:inline;opacity:1;fill:#fff9c4;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4766"
        width="20"
@@ -1075,13 +1074,13 @@
        width="20"
        id="rect4768"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4770"
        width="20"
@@ -1095,13 +1094,13 @@
        width="20"
        id="rect4772"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#fff176;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4774"
        width="20"
@@ -1115,7 +1114,7 @@
        width="20"
        id="rect4776"
        style="display:inline;opacity:1;fill:#fff176;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -1125,13 +1124,13 @@
        width="20"
        id="rect4778"
        style="display:inline;opacity:1;fill:#ffeb3b;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#fbc02d;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4780"
        width="20"
@@ -1141,7 +1140,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#fbc02d;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4782"
        width="20"
@@ -1155,7 +1154,7 @@
        width="20"
        id="rect4784"
        style="display:inline;opacity:1;fill:#f57f17;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -1165,13 +1164,13 @@
        width="20"
        id="rect4786"
        style="display:inline;opacity:1;fill:#fff9c4;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#fff9c4;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4788"
        width="20"
@@ -1364,13 +1363,13 @@
        width="10"
        id="rect4407"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4409"
        width="10"
@@ -1384,13 +1383,13 @@
        width="10"
        id="rect4417"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4422"
        width="10"
@@ -1404,7 +1403,7 @@
        width="10"
        id="rect4424"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1420,7 +1419,7 @@
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4434"
        width="10"
@@ -1434,7 +1433,7 @@
        width="10"
        id="rect4436"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/2bmin/xfwm4/bottom-active.png"
+       inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/themes/xfgaps/xfwm4/bottom-active.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1462,7 +1461,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Name"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,60)"
      sodipodi:insensitive="true">
     <text
