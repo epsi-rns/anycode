@@ -1,5 +1,8 @@
-active_text_color=active_text_color_1
-active_text_shadow_color=active_hilight_1
+active_text_color=#444444
+inactive_text_color=#888888
+
+#active_text_color=active_text_color_1
+#active_text_shadow_color=active_hilight_1
 
 inactive_text_color=inactive_text_color_2
 inactive_text_shadow_color=inactive_hilight_2
@@ -18,10 +21,10 @@ shadow_delta_y=-12
 shadow_opacity=100
 
 title_horizontal_offset=1
-title_shadow_active=under
+title_shadow_active=false
 title_shadow_inactive=under
 title_vertical_offset_active=1
 title_vertical_offset_inactive=1
 
-button_layout=O|TSHMC
+button_layout=O|SHMCT
 #button_layout=O|SHMC

@@ -1,0 +1,31 @@
+/* XPM */
+static char *maximize_toggled_pressed[] = {
+/* columns rows colors chars-per-pixel */
+"32 24 1 1 ",
+"  c gray88 s active_color_2",
+/* pixels */
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                "
+};

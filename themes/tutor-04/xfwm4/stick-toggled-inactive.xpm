@@ -1,0 +1,31 @@
+/* XPM */
+static char *stick_toggled_inactive[] = {
+/* columns rows colors chars-per-pixel */
+"32 24 1 1 ",
+"  c #EEEEEE s inactive_color_2",
+/* pixels */
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                "
+};

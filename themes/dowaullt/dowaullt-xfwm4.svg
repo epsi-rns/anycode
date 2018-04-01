@@ -14,13 +14,13 @@
    height="150"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    version="1.0"
    sodipodi:docname="dowaullt-xfwm4.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt-xfwm4-nobg.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <metadata
      id="metadata36">
     <rdf:RDF>
@@ -210,11 +210,11 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1030"
+     inkscape:window-height="1025"
      id="namedview32"
      showgrid="false"
      inkscape:zoom="5.0266667"
-     inkscape:cx="133"
+     inkscape:cx="74.014589"
      inkscape:cy="75"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -264,8 +264,8 @@
        id="rect4173"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4176"
@@ -274,19 +274,19 @@
        x="40"
        y="-121"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="51.018311"
        y="19.332031"
-       id="text4178"
-       sodipodi:linespacing="125%"><tspan
+       id="text4178"><tspan
          sodipodi:role="line"
          id="tspan4180"
          x="51.018311"
-         y="19.332031">S</tspan></text>
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">S</tspan></text>
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4231"
@@ -295,8 +295,8 @@
        x="62"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-toggled-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-121"
        x="62"
@@ -305,19 +305,19 @@
        id="rect4233"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-toggled-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
-       sodipodi:linespacing="125%"
        id="text4235"
        y="19.332031"
        x="95.01059"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan4255"
          x="95.01059"
-         y="19.332031">H</tspan></text>
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">H</tspan></text>
     <rect
        y="-31"
        x="84"
@@ -326,8 +326,8 @@
        id="rect4239"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/hide-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4241"
@@ -336,19 +336,19 @@
        x="84"
        y="-121"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/hide-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="117.01425"
        y="19.332031"
-       id="text4243"
-       sodipodi:linespacing="125%"><tspan
+       id="text4243"><tspan
          sodipodi:role="line"
          id="tspan4257"
          x="117.01425"
-         y="19.332031">M</tspan></text>
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">M</tspan></text>
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4247"
@@ -357,8 +357,8 @@
        x="106"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-121"
        x="106"
@@ -367,19 +367,19 @@
        id="rect4249"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
-       sodipodi:linespacing="125%"
        id="text4251"
        y="19.332031"
        x="160.92274"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan4259"
          x="160.92274"
-         y="19.332031">C</tspan></text>
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">C</tspan></text>
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5183"
@@ -388,8 +388,8 @@
        x="32"
        y="-61"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/title-4-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-31"
        x="32"
@@ -398,41 +398,41 @@
        id="rect5185"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/title-4-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
-       sodipodi:linespacing="125%"
        id="text5194"
        y="17.554688"
        x="36.004883"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan5198"
          x="36.004883"
-         y="17.554688">4</tspan></text>
+         y="17.554688"
+         style="font-size:10px;line-height:1.25">4</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="20.004883"
        y="17.554688"
-       id="text5202"
-       sodipodi:linespacing="125%"><tspan
+       id="text5202"><tspan
          sodipodi:role="line"
          id="tspan5424"
          x="20.004883"
-         y="17.554688">5</tspan></text>
+         y="17.554688"
+         style="font-size:10px;line-height:1.25">5</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text5208"
        y="17.554688"
        x="28.004883"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan5426"
          x="28.004883"
-         y="17.554688">1</tspan></text>
+         y="17.554688"
+         style="font-size:10px;line-height:1.25">1</tspan></text>
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5214"
@@ -441,8 +441,8 @@
        x="24"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/title-3-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-31"
        x="16"
@@ -451,8 +451,8 @@
        id="rect5216"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/title-5-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5438"
@@ -461,8 +461,8 @@
        x="128"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-toggled-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-121"
        x="128"
@@ -471,8 +471,8 @@
        id="rect5440"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-toggled-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-31"
        x="150"
@@ -481,8 +481,8 @@
        id="rect5442"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/close-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5444"
@@ -491,61 +491,63 @@
        x="150"
        y="-121"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/close-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
-       sodipodi:linespacing="125%"
        id="text5446"
        y="19.332031"
        x="73.017883"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="19.332031"
          x="73.017883"
          id="tspan5448"
-         sodipodi:role="line">S</tspan></text>
+         sodipodi:role="line"
+         style="font-size:15px;line-height:1.25">S</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="77.148071"
        y="23.040932"
-       id="text5450"
-       sodipodi:linespacing="125%"><tspan
+       id="text5450"><tspan
          sodipodi:role="line"
          id="tspan5456"
          x="77.148071"
-         y="23.040932">t</tspan></text>
+         y="23.040932"
+         style="font-size:12.5px;line-height:1.25">t</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text5614"
        y="23.040932"
        x="144.64807"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="23.040932"
          x="144.64807"
          id="tspan5616"
-         sodipodi:role="line">t</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12.5px;line-height:1.25">t</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text5618"
        y="19.332031"
        x="139.01401"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="19.332031"
          x="139.01401"
          id="tspan5620"
-         sodipodi:role="line">M</tspan></text>
+         sodipodi:role="line"
+         style="font-size:15px;line-height:1.25">M</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="204.92274"
        y="19.332031"
-       id="text5783"
-       sodipodi:linespacing="125%"><tspan
+       id="text5783"><tspan
          sodipodi:role="line"
-         id="tspan4491">T</tspan></text>
+         id="tspan4491"
+         x="204.92274"
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">T</tspan></text>
     <rect
        y="-31"
        x="172"
@@ -554,8 +556,8 @@
        id="rect5787"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5789"
@@ -564,8 +566,8 @@
        x="172"
        y="-121"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5791"
@@ -574,8 +576,8 @@
        x="194"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-toggled-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-121"
        x="194"
@@ -584,28 +586,30 @@
        id="rect5793"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-toggled-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="209.14807"
        y="23.040932"
-       id="text5795"
-       sodipodi:linespacing="125%"><tspan
+       id="text5795"><tspan
          sodipodi:role="line"
          id="tspan5797"
          x="209.14807"
-         y="23.040932">t</tspan></text>
+         y="23.040932"
+         style="font-size:12.5px;line-height:1.25">t</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="183.01401"
        y="19.332031"
-       id="text5799"
-       sodipodi:linespacing="125%"><tspan
+       id="text5799"><tspan
          sodipodi:role="line"
-         id="tspan4489">T</tspan></text>
+         id="tspan4489"
+         x="183.01401"
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">T</tspan></text>
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6128"
@@ -614,8 +618,8 @@
        x="216"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/menu-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-121"
        x="216"
@@ -624,17 +628,19 @@
        id="rect6130"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/menu-pressed.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
-       sodipodi:linespacing="125%"
        id="text6132"
        y="19.332031"
        x="227.01401"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan4487">O</tspan></text>
+         id="tspan4487"
+         x="227.01401"
+         y="19.332031"
+         style="font-size:15px;line-height:1.25">O</tspan></text>
     <rect
        y="-31"
        x="238"
@@ -651,15 +657,15 @@
        y="-121" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="251.98291"
        y="-4.0488281"
-       id="text6142"
-       sodipodi:linespacing="125%"><tspan
+       id="text6142"><tspan
          sodipodi:role="line"
          id="tspan6146"
          x="251.98291"
-         y="-4.0488281">active</tspan></text>
+         y="-4.0488281"
+         style="font-size:5px;line-height:1.25">active</tspan></text>
     <rect
        y="-61"
        x="40"
@@ -668,8 +674,8 @@
        id="rect6148"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6154"
@@ -678,8 +684,8 @@
        x="62"
        y="-61"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-toggled-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-61"
        x="84"
@@ -688,8 +694,8 @@
        id="rect6160"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/hide-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6166"
@@ -698,8 +704,8 @@
        x="106"
        y="-61"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-116"
        x="8"
@@ -708,8 +714,8 @@
        id="rect6172"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/right-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6178"
@@ -718,8 +724,8 @@
        x="0"
        y="-31"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/top-left-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-31"
        x="8"
@@ -728,8 +734,8 @@
        id="rect6184"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/top-right-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6190"
@@ -738,8 +744,8 @@
        x="128"
        y="-61"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-toggled-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-61"
        x="150"
@@ -748,8 +754,8 @@
        id="rect6192"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/close-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-61"
        x="172"
@@ -758,8 +764,8 @@
        id="rect6214"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6216"
@@ -768,8 +774,8 @@
        x="194"
        y="-61"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-toggled-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6226"
@@ -778,8 +784,8 @@
        x="216"
        y="-61"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/menu-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-61"
        x="238"
@@ -795,8 +801,8 @@
        x="40"
        y="-91"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-91"
        x="62"
@@ -805,8 +811,8 @@
        id="rect6236"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/shade-toggled-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6238"
@@ -815,8 +821,8 @@
        x="84"
        y="-91"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/hide-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-91"
        x="106"
@@ -825,8 +831,8 @@
        id="rect6240"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 8,-121 0,5 3,0 0,25 5,0 0,-30 -8,0 z"
@@ -840,8 +846,8 @@
        x="0"
        y="-116"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/left-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-91"
        x="128"
@@ -850,8 +856,8 @@
        id="rect6248"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/maximize-toggled-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6250"
@@ -860,8 +866,8 @@
        x="150"
        y="-91"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/close-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6252"
@@ -869,8 +875,8 @@
        height="30"
        x="172"
        y="-91"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-prelight.png" />
     <rect
        y="-91"
@@ -879,8 +885,8 @@
        width="22"
        id="rect6254"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/stick-toggled-prelight.png" />
     <rect
        y="-91"
@@ -890,8 +896,8 @@
        id="rect6256"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/menu-prelight.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6258"
@@ -900,27 +906,27 @@
        x="238"
        y="-91" />
     <text
-       sodipodi:linespacing="125%"
        id="text6260"
        y="-64.048828"
        x="251.98291"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan6270"
          x="251.98291"
-         y="-64.048828">prelight</tspan></text>
+         y="-64.048828"
+         style="font-size:5px;line-height:1.25">prelight</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="251.98291"
        y="-34.048828"
-       id="text6264"
-       sodipodi:linespacing="125%"><tspan
+       id="text6264"><tspan
          sodipodi:role="line"
          id="tspan6268"
          x="251.98291"
-         y="-34.048828">inactive</tspan></text>
+         y="-34.048828"
+         style="font-size:5px;line-height:1.25">inactive</tspan></text>
     <rect
        y="-1"
        x="40"
@@ -1014,48 +1020,48 @@
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="251.98291"
        y="-94.049042"
-       id="text6298"
-       sodipodi:linespacing="125%"><tspan
+       id="text6298"><tspan
          sodipodi:role="line"
          id="tspan6302"
          x="251.98291"
-         y="-94.049042">pressed</tspan></text>
+         y="-94.049042"
+         style="font-size:5px;line-height:1.25">pressed</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="28.004883"
        y="7.5543437"
-       id="text6558"
-       sodipodi:linespacing="125%"><tspan
+       id="text6558"><tspan
          sodipodi:role="line"
          id="tspan6570"
          x="28.004883"
-         y="7.5543437">2</tspan></text>
+         y="7.5543437"
+         style="font-size:10px;line-height:1.25">2</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text6566"
        y="27.554344"
        x="28.004883"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan6576"
          x="28.004883"
-         y="27.554344">3</tspan></text>
+         y="27.554344"
+         style="font-size:10px;line-height:1.25">3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="0"
        y="40.256149"
-       id="text6572"
-       sodipodi:linespacing="125%"><tspan
+       id="text6572"><tspan
          sodipodi:role="line"
          id="tspan6574"
          x="0"
-         y="40.256149" /></text>
+         y="40.256149"
+         style="font-size:40px;line-height:1.25"> </tspan></text>
     <rect
        y="-82"
        x="16"
@@ -1074,8 +1080,8 @@
        x="20"
        y="-121"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/bottom-left-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        y="-103"
        x="20"
@@ -1084,11 +1090,11 @@
        id="rect5852"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/bottom-right-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/title-5-inactive.png"
        y="-61"
        x="16"
@@ -1097,8 +1103,8 @@
        id="rect4462"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/title-3-inactive.png"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4464"
@@ -1107,8 +1113,8 @@
        x="24"
        y="-61" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/top-left-inactive.png"
        y="-61"
        x="0"
@@ -1117,8 +1123,8 @@
        id="rect4504"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/top-right-inactive.png"
        style="opacity:0.25;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4506"
@@ -1127,8 +1133,8 @@
        x="8"
        y="-61" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/right-active.png"
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4530"
@@ -1137,8 +1143,8 @@
        x="8"
        y="-86" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/left-active.png"
        y="-86"
        x="0"
@@ -1161,55 +1167,62 @@
        x="0"
        y="-1" />
     <text
-       sodipodi:linespacing="100%"
        id="text4469"
        y="5.7773438"
        x="11.992676"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan4473"
          x="11.992676"
-         y="5.7773438">R</tspan><tspan
+         y="5.7773438"
+         style="font-size:5px;line-height:1">R</tspan><tspan
          sodipodi:role="line"
          id="tspan4475"
          x="11.992676"
-         y="10.777344">I</tspan><tspan
+         y="10.777344"
+         style="font-size:5px;line-height:1">I</tspan><tspan
          sodipodi:role="line"
          id="tspan4477"
          x="11.992676"
-         y="15.777344">G</tspan><tspan
+         y="15.777344"
+         style="font-size:5px;line-height:1">G</tspan><tspan
          sodipodi:role="line"
          id="tspan4479"
          x="11.992676"
-         y="20.777344">H</tspan><tspan
+         y="20.777344"
+         style="font-size:5px;line-height:1">H</tspan><tspan
          sodipodi:role="line"
          id="tspan4481"
          x="11.992676"
-         y="25.777344">T</tspan></text>
+         y="25.777344"
+         style="font-size:5px;line-height:1">T</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="4.0024414"
        y="8.2773438"
-       id="text4483"
-       sodipodi:linespacing="100%"><tspan
+       id="text4483"><tspan
          sodipodi:role="line"
          id="tspan4495"
          x="4.0024414"
-         y="8.2773438">L</tspan><tspan
+         y="8.2773438"
+         style="font-size:5px;line-height:1">L</tspan><tspan
          sodipodi:role="line"
          id="tspan4497"
          x="4.0024414"
-         y="13.277344">E</tspan><tspan
+         y="13.277344"
+         style="font-size:5px;line-height:1">E</tspan><tspan
          sodipodi:role="line"
          id="tspan4499"
          x="4.0024414"
-         y="18.277344">F</tspan><tspan
+         y="18.277344"
+         style="font-size:5px;line-height:1">F</tspan><tspan
          sodipodi:role="line"
          id="tspan4501"
          x="4.0024414"
-         y="23.277344">T</tspan></text>
+         y="23.277344"
+         style="font-size:5px;line-height:1">T</tspan></text>
     <rect
        inkscape:export-ydpi="180"
        inkscape:export-xdpi="180"
@@ -1221,8 +1234,8 @@
        x="16"
        y="-66" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/bottom-left-active.png"
        y="-72"
        x="17"
@@ -1238,8 +1251,8 @@
        x="25"
        y="-72"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/bottom-right-active.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.15;fill:#000050;fill-opacity:1;stroke:none;stroke-width:0.68797964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4541"
@@ -1248,11 +1261,11 @@
        x="17"
        y="-78"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/bottom-left-inactive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        inkscape:export-filename="/home/epsi/Dropbox/2018 - Inkscape/dowaullt/xfwm4/bottom-right-inactive.png"
        y="-78"
        x="25"
