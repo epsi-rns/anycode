@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-mixer" version="1.0">
+  <property name="sound-card" type="string" value="HDAIntelAlsamixer"/>
+  <property name="sound-cards" type="empty">
+    <property name="PlaybackBuiltinAudioAnalogStereoPulseAudioMixer" type="array">
+      <value type="string" value="Master"/>
+    </property>
+    <property name="CaptureBuiltinAudioAnalogStereoPulseAudioMixer" type="array">
+      <value type="string" value="Master"/>
+    </property>
+    <property name="CaptureMonitorofBuiltinAudioAnalogStereoPulseAudioMixer" type="array">
+      <value type="string" value="Master"/>
+    </property>
+    <property name="HDAIntelAlsamixer" type="array">
+      <value type="string" value="Rear Mic Boost"/>
+      <value type="string" value="Rear Mic"/>
+      <value type="string" value="CD"/>
+      <value type="string" value="Line Boost"/>
+      <value type="string" value="Line-in"/>
+      <value type="string" value="Front Mic Boost"/>
+      <value type="string" value="Front Mic"/>
+      <value type="string" value="Front"/>
+      <value type="string" value="PCM"/>
+      <value type="string" value="Headphone"/>
+      <value type="string" value="Master"/>
+    </property>
+  </property>
+  <property name="window-height" type="int" value="709"/>
+  <property name="window-width" type="int" value="1366"/>
+  <property name="volume-step-size" type="uint" value="5"/>
+</channel>
