@@ -20,7 +20,7 @@ wedges, texts, autotexts = axes.pie(
 
 axes.legend(
   wedges, legends,
-  title="Location",
+  title="Date/Location",
   loc="center left",
   bbox_to_anchor=(-0.6, 0.5, 0, 0))
 
