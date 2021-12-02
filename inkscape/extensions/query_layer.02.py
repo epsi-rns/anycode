@@ -8,7 +8,7 @@ class QueryLayer(inkex.EffectExtension):
   def recurse(self, level, nodes):
     for node in sorted(nodes, key =  self._sort):
       if isinstance(node, inkex.ShapeElement):
-        if node.get('inkscape:label') is not None:
+        if node.get('inkscape:groupmode') == 'layer':
           self.print_layer_name(level, node)
           self.recurse(level+1, node)
 
@@ -17,7 +17,7 @@ class QueryLayer(inkex.EffectExtension):
     inkex.errormsg('-'*level + ' ' +label_name)
 
   def _sort(self, node):
-    if node.get('inkscape:label') is not None:
+    if node.get('inkscape:groupmode') == 'layer':
       return node.get('inkscape:label')
     else:
       return  ""

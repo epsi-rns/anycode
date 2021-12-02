@@ -1,8 +1,5 @@
 #!/usr/bin/env python
-# coding=utf-8
-
 import inkex
-
 from inkex.elements import TextElement
 
 class Hello(inkex.GenerateExtension):

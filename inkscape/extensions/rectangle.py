@@ -16,7 +16,8 @@ def draw_SVG_square(w,h, x,y, parent):
         'x'         : str(x),
         'y'         : str(y)
             }
-    circ = etree.SubElement(parent, inkex.addNS('rect','svg'), attribs )
+    circ = etree.SubElement(
+        parent, inkex.addNS('rect','svg'), attribs )
     return circ
 
 class Kotak(inkex.EffectExtension):

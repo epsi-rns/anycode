@@ -1,9 +1,8 @@
 #!/usr/bin/env python
-# coding=utf-8
 
 import inkex
 import sys, copy
-from trainees.jayapura import people
+from trainees.testbed import people
 
 class FillLayers(inkex.EffectExtension):
   def get_layers(self):
