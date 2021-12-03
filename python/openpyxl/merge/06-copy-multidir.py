@@ -11,6 +11,7 @@ wb_dest   = load_workbook('./empty.xlsx')
 def merge_all(path):
   onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
   onlyxlxs  = [f for f in onlyfiles if '.xlsx' in f]
+  onlyxlxs.sort()
 
   for f in onlyxlxs:
     wb_source = load_workbook(join(path, f))
@@ -22,9 +23,9 @@ def merge_all(path):
     sheet._parent = wb_dest
     wb_dest._add_sheet(sheet)
 
-merge_all('./10-15-b5/')
-merge_all('./10-15-b6/')
-merge_all('./10-15-b72/')
+merge_all('./monthly/')
+# merge_all('./other-dir-01/')
+# merge_all('./other-dir-01/')
 
 # Save the file
 wb_dest.save("sample.xlsx")

@@ -1,13 +1,14 @@
 import os
 from os import listdir
 from os.path import isfile, join
+import pprint
 
-path = './10-15-b5/'
+path = './monthly/'
 
 onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
 onlyxlxs  = [f for f in onlyfiles if '.xlsx' in f]
+onlyxlxs.sort()
 
-for f in onlyxlxs:
-  noext = os.path.splitext(f)[0]
-  print(noext)
+my_print  = pprint.PrettyPrinter(width=60, compact=True)
+my_print.pprint(onlyxlxs)
 

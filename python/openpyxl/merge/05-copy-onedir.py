@@ -7,10 +7,11 @@ from openpyxl import load_workbook
 from openpyxl import Workbook
 
 wb_dest   = load_workbook('./empty.xlsx')
-path = './10-15-b5/'
+path = './monthly/'
 
 onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
 onlyxlxs  = [f for f in onlyfiles if '.xlsx' in f]
+onlyxlxs.sort()
 
 for f in onlyxlxs:
   wb_source = load_workbook(join(path, f))
@@ -25,4 +26,3 @@ for f in onlyxlxs:
 
 # Save the file
 wb_dest.save("sample.xlsx")
-
