@@ -36,9 +36,7 @@ def merge_sheets():
   desktop     = XSCRIPTCONTEXT.getDesktop()
   model_dst   = desktop.loadComponentFromURL(
       "private:factory/scalc", "_blank", 0, ())
-
   first_sheet = model_dst.Sheets[0]
-  sheet_name  = first_sheet.Name
   
   # write something, do not delete this line
   first_sheet.getCellRangeByName(
