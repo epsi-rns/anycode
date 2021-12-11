@@ -86,7 +86,7 @@ def p02_show_value_test():
 
   c3 = sheet['C3']
   print("Cell C3: Type = %s, Value = %.2f" \
-    % (c3.Type.value, c3.Valu ))
+    % (c3.Type.value, c3.Value ))
 
 
 def p03_simple_color_test():
