@@ -6,9 +6,9 @@ ws = wb["Combined"]
 
 puppy    = 0
 juvenile = 0
-junior   = { '04': 0, '06': 0, '08':0 }
-female   = { '02':0 , '04': 0, '06': 0, '08':0 }
-male     = { '02':0 , '04': 0, '06': 0, '08':0 }
+junior   = { '04': 0, '06': 0, '08': 0 }
+female   = { '02': 0, '04': 0, '06': 0, '08':0 }
+male     = { '02': 0, '04': 0, '06': 0, '08':0 }
 total    = 0
 
 # start: 3
@@ -26,13 +26,13 @@ for row in rows:
     elif (0.4 <= prob < 0.6): female['04'] += 1
     elif (0.6 <= prob < 0.8): female['06'] += 1
     elif (0.8 <= prob <= 1):  female['08'] += 1
-    else: raise Exception("Negative not in range" + str(prob))
+    else: raise Exception("Female not in range" + str(prob))
   elif pred=='Male':
     if   (0.2 <= prob < 0.4): male['02'] += 1
     elif (0.4 <= prob < 0.6): male['04'] += 1
     elif (0.6 <= prob < 0.8): male['06'] += 1
     elif (0.8 <= prob <= 1):  male['08'] += 1
-    else: raise Exception("Positive not in range" + str(prob))
+    else: raise Exception("Male not in range" + str(prob))
   elif pred=='Junior':
     if   (0.4 <= prob < 0.6): junior['04'] += 1
     elif (0.6 <= prob < 0.8): junior['06'] += 1

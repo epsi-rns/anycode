@@ -1,5 +1,4 @@
 import openpyxl
-import math
 from openpyxl import Workbook
 from openpyxl import load_workbook
 
@@ -71,9 +70,10 @@ def pivot_me(rows, name_pred_source, name_prob_source,
       worksheet[row_c + col]  = junior[key]
 
   for key in [40, 60, 80]:
-    col = str(7+int(key/20)-2)
-    worksheet[row_p + col]  = str_ranges[key]
-    worksheet[row_c + col]  = female[key]
+    if female[key]:
+      col = str(7+int(key/20)-2)
+      worksheet[row_p + col]  = str_ranges[key]
+      worksheet[row_c + col]  = female[key]
 
   for key in [0, 20, 40, 60, 80]:
     if male[key]:

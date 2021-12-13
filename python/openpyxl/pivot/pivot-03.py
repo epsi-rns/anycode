@@ -1,4 +1,3 @@
-import math
 import openpyxl
 from openpyxl import load_workbook
 
@@ -14,7 +13,7 @@ def pivot_me(rows, name_pred, name_prob):
   female      = { 20: 0, 40: 0, 60: 0, 80:0 }
   male        = { 20: 0, 40: 0, 60: 0, 80:0 }
   total       = 0
-  str_ranges  = { 20:'0.2-0.4' , 40: '0.4-0.6',
+  str_ranges  = { 20: '0.2-0.4', 40: '0.4-0.6',
                   60: '0.6-0.8', 80: '0.8-1.0' }
 
   for row in rows:
@@ -51,9 +50,9 @@ def pivot_me(rows, name_pred, name_prob):
   for key in [40, 60, 80]:
     print('Junior %s   : %3d' % (str_ranges[key], junior[key]))
   for key in [20, 40, 60, 80]:
-    print('Negative %s : %3d' % (str_ranges[key], female[key]))
+    print('Female   %s : %3d' % (str_ranges[key], female[key]))
   for key in [20, 40, 60, 80]:
-    print('Positive %s : %3d' % (str_ranges[key], male[key]))
+    print('Male     %s : %3d' % (str_ranges[key], male[key]))
   print('------------------------')
   print('Total            : %3d' % total)
   print()
