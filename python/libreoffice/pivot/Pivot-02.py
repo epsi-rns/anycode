@@ -1,11 +1,14 @@
-import openpyxl
-from openpyxl import load_workbook
+# coding: utf-8
+from __future__ import unicode_literals
 
 class DogSample:
   str_ranges   = { 20: '0.2-0.4', 40: '0.4-0.6',
                    60: '0.6-0.8', 80: '0.8-1.0' }
 
-  def __init__(self, sheet_src, rows):
+  def __init__(self, sheet_name, rows):
+    document   = XSCRIPTCONTEXT.getDocument()
+    sheet_src  = document.Sheets[sheet_name]
+
     self.sheet_src = sheet_src
     self.rows      = rows
 
@@ -26,7 +29,7 @@ class DogSample:
          + sum(self.sample['male'].values())
 
   def display_to_console(self):
-    # s is just a shorter form of sample variable
+    # shorter form of sample variable
     s = self.sample
     sr = self.str_ranges
 
@@ -69,14 +72,14 @@ class DogSample:
 
   def walk_each_row(self):
     for row in self.rows:
-      pred_col = self.sheet_src[self.name_pred + str(row)]
-      prob_col = self.sheet_src[self.name_prob + str(row)]
+      column_pred = self.sheet_src[self.name_pred + str(row)]
+      column_prob = self.sheet_src[self.name_prob + str(row)]
 
-      pred = pred_col.value
+      pred = column_pred.String
 
-      if prob_col.value == None: continue
+      if column_prob.Value == None: continue
       else:
-        prob = float(prob_col.value)
+        prob = float(column_prob.Value)
         self.update(pred, prob)
 
   def pivot(self, title, name_pred, name_prob):
@@ -89,16 +92,13 @@ class DogSample:
     self.display_to_console()
 
 def main():
-  book_src  = load_workbook('recap.xlsx')
-  sheet_src = book_src["Combined"]
-
   r_start =  3
   r_stop  = 43
   rows = range(r_start, r_stop)
 
-  sample = DogSample(sheet_src, rows)
+  sample = DogSample("Combined", rows)
   sample.pivot('First Pool',  'B', 'C')
   sample.pivot('Second Pool', 'D', 'E')
   sample.pivot('Third Pool',  'F', 'G')
 
-main()
+
