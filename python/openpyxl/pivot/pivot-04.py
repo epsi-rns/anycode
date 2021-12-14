@@ -14,12 +14,18 @@ def get_sample_init():
     'male'     : { 20: 0, 40: 0, 60: 0, 80:0 }
   }
 
+def get_total(s):
+  return s['puppy'] \
+       + s['juvenile'] \
+       + sum(s['junior'].values()) \
+       + sum(s['female'].values()) \
+       + sum(s['male'].values())
+
 def display_sample(s):
   str_ranges  = { 20: '0.2-0.4', 40: '0.4-0.6',
                   60: '0.6-0.8', 80: '0.8-1.0' }
 
-  total = s['puppy'] + s['juvenile'] + sum(s['junior'].values()) \
-        + sum(s['female'].values()) + sum(s['male'].values())
+  total = get_total(s)
 
   print('Puppy            : %3d' % s['puppy'])
   print('Juvenile         : %3d' % s['juvenile'])
