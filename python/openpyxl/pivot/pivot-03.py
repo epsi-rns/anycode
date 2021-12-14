@@ -50,9 +50,9 @@ def pivot_me(rows, name_pred, name_prob):
   for key in [40, 60, 80]:
     print('Junior %s   : %3d' % (str_ranges[key], junior[key]))
   for key in [20, 40, 60, 80]:
-    print('Female   %s : %3d' % (str_ranges[key], female[key]))
+    print('Negative %s : %3d' % (str_ranges[key], female[key]))
   for key in [20, 40, 60, 80]:
-    print('Male     %s : %3d' % (str_ranges[key], male[key]))
+    print('Positive %s : %3d' % (str_ranges[key], male[key]))
   print('------------------------')
   print('Total            : %3d' % total)
   print()
