@@ -1,4 +1,6 @@
-from pprint import pprint
+import pprint
 from MyPopulation import breeds, stages, transpose
 
-pprint(breeds)
+my_print = pprint.PrettyPrinter(
+  width=54, compact=True)
+my_print.pprint(breeds)
