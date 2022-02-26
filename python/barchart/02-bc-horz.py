@@ -11,7 +11,7 @@ width = 0.65
 
 # plot horizontal bar chart
 
-fig, axes = plt.subplots()
+axes = plt.subplot()
 y_pos = np.arange(len(breeds))
 
 axes.barh(y_pos, puppy, width,

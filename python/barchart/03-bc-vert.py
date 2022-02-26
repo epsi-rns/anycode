@@ -11,7 +11,7 @@ width = 0.35
 
 # plot vertical bar chart
 
-fig, axes = plt.subplots()
+axes = plt.subplot()
 
 axes.bar(breeds, puppy,  width,
   color=material['blue500'],   label='Puppy')
