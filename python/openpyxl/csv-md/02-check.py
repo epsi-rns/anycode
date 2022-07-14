@@ -1,3 +1,4 @@
+import re
 filename = 'faktur-keluaran.csv'
 
 # prepare header
@@ -11,13 +12,16 @@ hd_fpr = '"LT","Nama","Alamat","Perekam","Wilayah","Timestamp","Hash"'
 hd_of  = '"OF","Kode","Nama","Satuan","Jumlah","Total",' + \
          '"Diskon","DPP","PPN","Tarif","PPnBM"'
 
-keys_fk = hd_fk.split('",')
+# keys_fk = hd_fk.split('",')
+keys_fk = re.split(r',(?=")', hd_fk)
 keys_fk = [key.replace('"', '') for key in keys_fk]
 
-keys_fpr = hd_fpr.split('",')
+# keys_fpr = hd_fpr.split('",')
+keys_fpr = re.split(r',(?=")', hd_fpr)
 keys_fpr = [key.replace('"', '') for key in keys_fpr]
 
-keys_of = hd_of.split('",')
+# keys_of = hd_of.split('",')
+keys_of = re.split(r',(?=")', hd_of)
 keys_of = [key.replace('"', '') for key in keys_of]
 
 # parse lines
@@ -30,7 +34,8 @@ count = 0
 for line in lines:
   count += 1
   if (count>3) and (count<10):
-    values = line.split('",')
+    # values = line.split('",')
+    values = re.split(r',(?=")', line)
     values = [value.replace('"', '') for value in values]
 
     if values[0]=="FK":

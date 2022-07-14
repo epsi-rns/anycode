@@ -1,3 +1,4 @@
+import re
 import openpyxl
 from openpyxl import Workbook
 from openpyxl.styles import Color, PatternFill, Font, Border
@@ -25,7 +26,8 @@ header_fk  = \
     '"NPWP","Nama","Alamat","DPP","PPn","PPnBM","Keterangan",' + \
     '"FG","UM DPP","UM PPn","UM PPnBM","Referensi"'
 
-keys_fk  = header_fk.split('",')
+# keys_fk  = header_fk.split('",')
+keys_fk = re.split(r',(?=")', header_fk)
 keys_fk  = [key.replace('"', '') for key in keys_fk]
 
 keys_fk2 = keys_fk.copy()
@@ -59,7 +61,8 @@ for line in lines:
   count += 1
 
   if (count>5):
-    values = line.split('",')
+    # values = line.split('",')
+    values = re.split(r',(?=")', line)
     values = [value.replace('"', '') for value in values]
 
     if values[0]=="FK":
@@ -92,7 +95,9 @@ for line in lines:
         elif key=='Tanggal':
           cell.number_format = "DD-MMM-YY;@"
         elif key in keys_fk_money:
-          cell.number_format = '" Rp"* #.##0,00 ;"-Rp"* #.##0,00 ;" Rp"* -# ;@ '
+          # beware of the comma or period, depend on locale
+          cell.number_format = '" Rp"* #,##0.00 ;' + \
+              '"-Rp"* #,##0.00 ;" Rp"* -# ;@ '
 
         if key=='Lengkap':
           faktur = "%013s" % pairs["Faktur"]

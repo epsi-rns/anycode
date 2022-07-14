@@ -1,7 +1,8 @@
 import re
 import openpyxl
 from openpyxl import Workbook
-from openpyxl.styles import Color, PatternFill, Font, Border
+from openpyxl.styles import Color, PatternFill, Font, Border, Alignment
+from datetime import datetime
 
 filename = 'faktur-keluaran.csv'
 
@@ -30,10 +31,10 @@ header_fpr = \
 
 header_of  = \
     '"OF","Kode","Nama","Satuan","Jumlah","Total",' + \
-    '"Diskon","DPP","PPN","Tarif","PPnBM"'
+    '"Diskon","DPP","PPn","Tarif","PPnBM"'
 
 # keys_fk  = header_fk.split('",')
-keys_fk  = re.split(r',(?=")', header_fk)
+keys_fk = re.split(r',(?=")', header_fk)
 keys_fk  = [key.replace('"', '') for key in keys_fk]
 
 # keys_fpr  = header_fpr.split('",')
@@ -46,6 +47,15 @@ keys_of  = [key.replace('"', '') for key in keys_of]
 
 keys_fk2 = keys_fk.copy()
 keys_fk2.insert(keys_fk2.index('Faktur')+1, 'Lengkap')
+
+keys_fk_int   = ["Masa", "Tahun", "Faktur", "NPWP"]
+keys_fk_money = ["DPP", "PPn", "PPnBM", "UM DPP", "UM PPn", "UM PPnBM"]
+keys_fk_date  = ["Tanggal"]
+
+keys_fpr_date = ["Timestamp"]
+
+keys_of_money = ["Satuan", "Total", "Diskon", "DPP", "PPn", "PPnBM"]
+keys_of_float = ["Jumlah", "Tarif"]
 
 # Print Header: Faktur Keluaran
 
@@ -109,9 +119,38 @@ for line in lines:
       for key in keys_fk2: # with additional field (lengkap)
         letter = openpyxl.utils.cell.get_column_letter(index)
         cell = ws[letter + str(count)]
-        if key in keys_fk:
-          cell.value = pairs[key]
         cell.font  = normalFont
+
+        if key in keys_fk:
+          value = pairs[key]
+
+          if key in keys_fk_int:
+            cell.value = int(value)
+          elif key in keys_fk_money:
+            cell.value = float(value)
+          elif key in keys_fk_date:
+            cell.value = datetime.strptime(value, "%d/%m/%Y")
+          else:
+            cell.value = value
+
+        if key=='Kode':
+          cell.number_format = "00"
+        elif key=='NPWP':
+          cell.number_format = "00\.000\.000\.0-000\.000"
+        elif key=='Faktur':
+          cell.number_format = "000-00\.00000000"
+        elif key=='Tanggal':
+          cell.number_format = "DD-MMM-YY;@"
+        elif key in keys_fk_money:
+          # beware of the comma or period, depend on locale
+          cell.number_format = '" Rp"* #,##0.00 ;' + \
+              '"-Rp"* #,##0.00 ;" Rp"* -# ;@ '
+
+        if key=='Lengkap':
+          faktur = "%013s" % pairs["Faktur"]
+          faktur = faktur[:3] + '-' + faktur[3:5] + '.' + faktur[5:]
+          cell.value = pairs["Kode"]+pairs["Ganti"]+"."+faktur
+
         index += 1
 
     if values[0]=="FAPR":
@@ -122,8 +161,17 @@ for line in lines:
       for key in pairs:
         letter  = openpyxl.utils.cell.get_column_letter(index)
         cell = ws[letter + str(count)]
-        cell.value = pairs[key]
         cell.font  = normalFont
+
+        value = pairs[key]
+        if key in keys_fpr_date:
+          cell.value = datetime.strptime(value[0:8], "%Y%m%d")
+        else:
+          cell.value = value
+
+        if key=='Timestamp':
+          cell.number_format = "DD-MMM-YY;@"
+
         index += 1
 
     if values[0]=="OF":
@@ -133,8 +181,21 @@ for line in lines:
       for key in pairs:
         letter  = openpyxl.utils.cell.get_column_letter(index)
         cell = ws[letter + str(count)]
-        cell.value = pairs[key]
         cell.font  = normalFont
+
+        value = pairs[key]
+        if key in keys_of_money:
+          cell.value = float(value)
+        elif key in keys_of_float:
+          cell.value = float(value)
+        else:
+          cell.value = value
+
+        if key in keys_of_money:
+          # beware of the comma or period, depend on locale
+          cell.number_format = '" Rp"* #,##0.00 ;' + \
+              '"-Rp"* #,##0.00 ;" Rp"* -# ;@ '
+
         index += 1
 
 # Save the file

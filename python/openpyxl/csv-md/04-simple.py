@@ -1,3 +1,4 @@
+import re
 import openpyxl
 from openpyxl import Workbook
 from openpyxl.styles import Color, PatternFill, Font, Border
@@ -23,7 +24,8 @@ header = '"FK","Kode","Ganti","Faktur","Masa","Tahun","Tanggal",' + \
          '"NPWP","Nama","Alamat","DPP,"PPn","PPnBM","Keterangan",' + \
          '"FG","UM DPP","UM PPn","UM PPnBM","Referensi"'
 
-keys = header.split('",')
+# keys = header.split('",')
+keys = re.split(r',(?=")', header)
 keys = [key.replace('"', '') for key in keys]
 
 index = 2
@@ -48,7 +50,8 @@ for line in lines:
   count += 1
 
   if (count>3):
-    values = line.split('",')
+    # values = line.split('",')
+    values = re.split(r',(?=")', line)
     values = [value.replace('"', '') for value in values]
 
     if values[0]=="FK":
