@@ -73,7 +73,7 @@ for key in keys_fk2:
 # Print Header: Faktur Perekam
 
 index = 23
-key_fpr_slim = keys_fpr.remove("Hash")
+keys_fpr.remove("Hash")
 for key in keys_fpr:
   letter  = openpyxl.utils.cell.get_column_letter(index)
   cell    = ws[letter + "2"]
