@@ -16,6 +16,8 @@ def split_quotes(header):
 # Master Detail Faktur Exporter Class
 class FakturMD2Sheet:
   def __init__(self, filename, sheet):
+    # save initial parameter
+    self.filename = filename
     self.sheet = sheet
 
     # prepare header
@@ -121,7 +123,7 @@ class FakturMD2Sheet:
     self.write_header(self.fields_fk)
 
     # parse lines
-    with open(filename) as f:
+    with open(self.filename) as f:
       lines = f.readlines()
       f.close()
 

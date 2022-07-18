@@ -16,17 +16,14 @@ def split_quotes(header):
 # Master Detail Faktur Exporter Class
 class FakturMD2Sheet:
   def __init__(self, filename, sheet):
+    # save initial parameter
+    self.filename = filename
     self.sheet = sheet
 
     # prepare header
     self.init_header_keys()
     self.init_field_metadata()
     self.init_sheet_style()
-
-    # parse lines
-    with open(filename) as f:
-      self.lines = f.readlines()
-      f.close()
 
   def init_header_keys(self):
     header_fk  = \
@@ -73,7 +70,7 @@ class FakturMD2Sheet:
     }
 
     self.fields_fapr = {
-      'LT'         : { 'col': 'W',  'width': 0.3 },
+      'LT'         : { 'col': 'W',  'width': 0.4 },
       'Nama'       : { 'col': 'X',  'width': 2.0 },
       'Alamat'     : { 'col': 'Y',  'hidden': True },
       'Perekam'    : { 'col': 'Z',  'width': 1.0 },
@@ -134,7 +131,7 @@ class FakturMD2Sheet:
       # take care of visibility
       if ('hidden' in metadata.keys()) \
       and (metadata['hidden']==True):
-        wscd.hidden = True
+        wscd[letter].hidden = True
 
   def write_entry(self, row, fields, keys, values):
     pairs = dict(zip(keys, values))
@@ -188,7 +185,7 @@ class FakturMD2Sheet:
     self.set_divider_width()
 
     # parse lines
-    with open(filename) as f:
+    with open(self.filename) as f:
       lines = f.readlines()
       f.close()
 
