@@ -17,22 +17,24 @@ class FakturMD:
 
   def init_header_keys(self):
     header_fk  = \
-      '"FK","Kode","Ganti","Faktur","Masa","Tahun","Tanggal",' + \
-      '"NPWP","Nama","Alamat","DPP","PPn","PPnBM","Keterangan",' + \
-      '"FG","UM DPP","UM PPn","UM PPnBM","Referensi"'
+    '"FK","Kode","Ganti","Faktur","Masa",' +\
+    '"Tahun","Tanggal","NPWP","Nama","Alamat",' +\
+    '"DPP","PPn","PPnBM","Keterangan","FG",' +\
+    '"UM DPP","UM PPn","UM PPnBM","Referensi"'
 
     header_fpr = \
-      '"LT","Nama","Alamat","Perekam","Wilayah","Timestamp","Hash"'
+    '"LT","Nama","Alamat","Perekam",' +\
+    '"Wilayah","Timestamp","Hash"'
 
     header_of  = \
-      '"OF","Kode","Nama","Satuan","Jumlah","Total",' + \
-      '"Diskon","DPP","PPN","Tarif","PPnBM"'
+    '"OF","Kode","Nama","Satuan","Jumlah",' +\
+    '"Total","Diskon","DPP","PPN","Tarif","PPnBM"'
 
     self.keys_fk  = split_quotes(header_fk)
     self.keys_fpr = split_quotes(header_fpr)
     self.keys_of  = split_quotes(header_of)
 
-  def print_header_keys(self, keys, values):
+  def print_record(self, keys, values):
     pairs = dict(zip(keys, values))
     for key in pairs:
       print(f'{key:>10} : {pairs[key][:40]}')
@@ -48,14 +50,14 @@ class FakturMD:
       if (count>3) and (count<10):
         values = split_quotes(line)
 
-        if values[0]=="FK":
-          self.print_header_keys(self.keys_fk, values)
+        if values[0]=="FK": 
+          self.print_record(self.keys_fk, values)
 
         if values[0]=="FAPR":
-          self.print_header_keys(self.keys_fpr, values)
+          self.print_record(self.keys_fpr, values)
 
         if values[0]=="OF":
-          self.print_header_keys(self.keys_of, values)
+          self.print_record(self.keys_of, values)
 
 def main():
   filename = 'faktur-keluaran.csv'

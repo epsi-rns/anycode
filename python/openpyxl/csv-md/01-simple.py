@@ -4,9 +4,11 @@ filename = 'faktur-keluaran.csv'
 
 # prepare header
 
-header = '"FK","Kode","Ganti","Faktur","Masa","Tahun","Tanggal",' + \
-         '"NPWP","Nama","Alamat","DPP,"PPn","PPnBM","Keterangan",' + \
-         '"FG","UM DPP","UM PPn","UM PPnBM","Referensi"'
+header = \
+    '"FK","Kode","Ganti","Faktur","Masa",' + \
+    '"Tahun","Tanggal","NPWP","Nama","Alamat",' + \
+    '"DPP","PPn","PPnBM","Keterangan","FG",' + \
+    '"UM DPP","UM PPn","UM PPnBM","Referensi"'
 
 # keys = header.split('",')
 keys = re.split(r',(?=")', header)
@@ -25,7 +27,8 @@ for line in lines:
     print(f'line {count}:\n{line}')
     # values = line.split('",')
     values = re.split(r',(?=")', line)
-    values = [value.replace('"', '') for value in values]
+    values = [value.replace('"', '')
+              for value in values]
 
     pairs = dict(zip(keys, values))
 

@@ -1,7 +1,8 @@
 import re
 import openpyxl
 from openpyxl import Workbook
-from openpyxl.styles import Color, PatternFill, Font, Border, Alignment
+from openpyxl.styles import (Color,
+  PatternFill, Font, Border, Alignment)
 from openpyxl.utils.cell import get_column_letter
 from datetime import datetime
 
@@ -16,6 +17,7 @@ def split_quotes(header):
 # Master Detail Faktur Exporter Class
 class FakturMD2Sheet:
   def __init__(self, filename, sheet):
+    # save initial parameter
     self.sheet = sheet
 
     # prepare header
@@ -30,35 +32,36 @@ class FakturMD2Sheet:
 
   def init_header_keys(self):
     header_fk  = \
-      '"FK","Kode","Ganti","Faktur","Masa","Tahun","Tanggal",' + \
-      '"NPWP","Nama","Alamat","DPP","PPn","PPnBM","Keterangan",' + \
-      '"FG","UM DPP","UM PPn","UM PPnBM","Referensi"'
+      '"FK","Kode","Ganti","Faktur","Masa",' + \
+      '"Tahun","Tanggal","NPWP","Nama","Alamat",' + \
+      '"DPP","PPn","PPnBM","Keterangan","FG",' + \
+      '"UM DPP","UM PPn","UM PPnBM","Referensi"'
 
     self.keys_fk   = split_quotes(header_fk)
 
   def init_field_metadata(self):
     self.fields_fk = {
-      'FK'         : { 'col': 'B', 'width': 0.3 },
-      'Kode'       : { 'col': 'C', 'width': 0.4 },
-      'Ganti'      : { 'col': 'D', 'width': 0.4 },
-      'Faktur'     : { 'col': 'E', 'width': 1.2, 'type': 'int' },
-      'Lengkap'    : { 'col': 'F', 'width': 1.5 },
-      'Masa'       : { 'col': 'G', 'width': 0.4, 'type': 'int', },
-      'Tahun'      : { 'col': 'H', 'width': 0.5, 'type': 'int', },
-      'Tanggal'    : { 'col': 'I', 'width': 0.8, 'type': 'date',
-                       'format': 'DD-MMM-YY;@' },
-      'NPWP'       : { 'col': 'J', 'width': 1.5, 'type': 'int' },
-      'Nama'       : { 'col': 'K', 'width': 3.0 },
-      'Alamat'     : { 'col': 'L', 'hidden': True },
-      'DPP'        : { 'col': 'M', 'width': 1.4, 'type': 'money' },
-      'PPn'        : { 'col': 'N', 'width': 1.4, 'type': 'money' },
-      'PPnBM'      : { 'col': 'O', 'width': 0.8, 'type': 'money' },
+      'FK'       : { 'col': 'B', 'width': 0.3 },
+      'Kode'     : { 'col': 'C', 'width': 0.4 },
+      'Ganti'    : { 'col': 'D', 'width': 0.4 },
+      'Faktur'   : { 'col': 'E', 'width': 1.2, 'type': 'int' },
+      'Lengkap'  : { 'col': 'F', 'width': 1.5 },
+      'Masa'     : { 'col': 'G', 'width': 0.4, 'type': 'int', },
+      'Tahun'    : { 'col': 'H', 'width': 0.5, 'type': 'int', },
+      'Tanggal'  : { 'col': 'I', 'width': 0.8, 'type': 'date',
+                     'format': 'DD-MMM-YY;@' },
+      'NPWP'     : { 'col': 'J', 'width': 1.5, 'type': 'int' },
+      'Nama'     : { 'col': 'K', 'width': 3.0 },
+      'Alamat'   : { 'col': 'L', 'hidden': True },
+      'DPP'      : { 'col': 'M', 'width': 1.4, 'type': 'money' },
+      'PPn'      : { 'col': 'N', 'width': 1.4, 'type': 'money' },
+      'PPnBM'    : { 'col': 'O', 'width': 0.8, 'type': 'money' },
       'Keterangan' : { 'col': 'P', 'width': 0.8 },
-      'FG'         : { 'col': 'Q', 'width': 0.3 },
-      'UM DPP'     : { 'col': 'R', 'width': 1.4, 'type': 'money' },
-      'UM PPn'     : { 'col': 'S', 'width': 1.4, 'type': 'money' },
-      'UM PPnBM'   : { 'col': 'T', 'width': 0.8, 'type': 'money' },
-      'Referensi'  : { 'col': 'U', 'width': 0.8 }
+      'FG'       : { 'col': 'Q', 'width': 0.3 },
+      'UM DPP'   : { 'col': 'R', 'width': 1.4, 'type': 'money' },
+      'UM PPn'   : { 'col': 'S', 'width': 1.4, 'type': 'money' },
+      'UM PPnBM' : { 'col': 'T', 'width': 0.8, 'type': 'money' },
+      'Referensi': { 'col': 'U', 'width': 0.8 }
     }
 
   def init_sheet_style(self):

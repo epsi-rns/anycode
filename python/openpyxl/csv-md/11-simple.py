@@ -3,14 +3,16 @@ import re
 # Master Detail Faktur Exporter Class
 class FakturMD:
   header_fk  = \
-    '"FK","Kode","Ganti","Faktur","Masa","Tahun","Tanggal",' + \
-    '"NPWP","Nama","Alamat","DPP","PPn","PPnBM","Keterangan",' + \
-    '"FG","UM DPP","UM PPn","UM PPnBM","Referensi"'
+    '"FK","Kode","Ganti","Faktur","Masa",' +\
+    '"Tahun","Tanggal","NPWP","Nama","Alamat",' +\
+    '"DPP","PPn","PPnBM","Keterangan","FG",' +\
+    '"UM DPP","UM PPn","UM PPnBM","Referensi"'
 
   def __init__(self, filename):
     # prepare header
     keys = re.split(r',(?=")', self.header_fk)
-    self.keys = [key.replace('"', '') for key in keys]
+    self.keys = [key.replace('"', '')
+                 for key in keys]
 
     # parse lines
     with open(filename) as f:
@@ -25,7 +27,8 @@ class FakturMD:
       if count==4:
         print(f'line {count}:\n{line}')
         values = re.split(r',(?=")', line)
-        values = [value.replace('"', '') for value in values]
+        values = [value.replace('"', '')
+                  for value in values]
 
         pairs = dict(zip(self.keys, values))
 
@@ -38,5 +41,3 @@ def main():
   md.run()
 
 main()
-
-
