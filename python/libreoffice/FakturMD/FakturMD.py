@@ -157,7 +157,8 @@ class FakturSample:
     return nf
 
   def init_format(self):
-    # beware of the comma or period, depend on locale
+    # beware of the comma or period,
+    # depend on locale
     rupiah_string = \
       '" Rp"* #.##0,00 ;' + \
       '"-Rp"* #.##0,00 ;" Rp"* -# ;@ '
@@ -179,6 +180,39 @@ class FakturSample:
                    value, format_source)
     return date_value.toordinal() - offset
 
+  def write_cell(self, \
+    cell, metadata, pairs, field_key):
+
+    # extract common variable: value
+    value = pairs[field_key]
+
+    # date special case
+    if 'type' in metadata.keys() \
+    and metadata['type'] == 'date':
+      if field_key=='Tanggal':
+          cell.Value = self. \
+            date_ordinal(value, "%d/%m/%Y")
+      elif field_key=='Timestamp':
+        if len(value) > 8:
+          cell.Value = self. \
+            date_ordinal(value[0:8], "%Y%m%d")
+      cell.NumberFormat = self.date_format
+
+    # money special case
+    elif 'type' in metadata.keys() \
+    and metadata['type'] == 'money':
+      cell.Value = float(value)
+      cell.NumberFormat = self.rupiah_format
+
+    # take care of format
+    elif 'format' in metadata.keys():
+      cell.Value = float(value)
+      cell.NumberFormat = self. \
+        get_number_format(metadata['format'])
+
+    # no date, no number format
+    else:  cell.String = value
+
   def write_entry(self, row, fields, keys, values):
     pairs = dict(zip(keys, values))
 
@@ -194,35 +228,7 @@ class FakturSample:
 
       # take care of value
       if field_key in keys:
-        value = pairs[field_key]
-
-        # date special case
-        if 'type' in metadata.keys() \
-        and metadata['type'] == 'date':
-          if field_key=='Tanggal':
-              cell.Value = self. \
-                date_ordinal(value, "%d/%m/%Y")
-          elif field_key=='Timestamp':
-            if len(value) > 8:
-              cell.Value = self. \
-                date_ordinal(value[0:8], "%Y%m%d")
-          cell.NumberFormat = self.date_format
-
-        # money special case
-        elif 'type' in metadata.keys() \
-        and metadata['type'] == 'money':
-          cell.Value = float(value)
-          cell.NumberFormat = self.rupiah_format
-
-        # take care of format
-        elif 'format' in metadata.keys():
-          cell.Value = float(value)
-          cell.NumberFormat = self. \
-            get_number_format(metadata['format'])
-
-        # no date, no number format
-        else:  cell.String = value
-
+        self.write_cell(cell, metadata, pairs, field_key)
       elif field_key=='Lengkap':
         faktur = "%013s" % pairs["Faktur"]
         faktur = faktur[:3] +'-'+ \
