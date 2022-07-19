@@ -28,12 +28,12 @@ class FakturSample:
     model = desktop.loadComponentFromURL(
       "private:factory/scalc", "_blank", 0, ())
 
-    self.sheet   = model.Sheets[0]
-    self.numbers = model.NumberFormats
-    self.locale  = model.CharLocale
+    self.sheet     = model.Sheets[0]
+    self.numberfmt = model.NumberFormats
+    self.locale    = model.CharLocale
 
     # post loading properties
-    self.init_rupiah_format()
+    self.init_format()
 
   # helper
   def split_quotes(self, header):
@@ -128,8 +128,9 @@ class FakturSample:
       cell.HoriJustify   = CENTER # or just 2
 
       # take care column
-      column = self.sheet.getColumns().getByName(letter)
-      column.CharHeight = 10
+      column = self.sheet. \
+        getColumns().getByName(letter)
+      column.CharHeight   = 10
       column.CharFontName = "Arial"
 
       if 'width' in metadata.keys():
@@ -148,21 +149,35 @@ class FakturSample:
     columns.getByName('AC').Width = 0.3 * 2536
 
   def get_number_format(self, format_string):
-    nf = self.numbers.queryKey(  \
+    nf = self.numberfmt.queryKey(  \
               format_string, self.locale, True)
     if nf == -1:
-       nf = self.numbers.addNew( \
+       nf = self.numberfmt.addNew( \
               format_string, self.locale)
     return nf
 
-  def init_rupiah_format(self):
+  def init_format(self):
     # beware of the comma or period, depend on locale
     rupiah_string = \
       '" Rp"* #.##0,00 ;' + \
       '"-Rp"* #.##0,00 ;" Rp"* -# ;@ '
 
+    date_string = 'DD-MMM-YY;@'
+
     self.rupiah_format = self. \
       get_number_format(rupiah_string)
+
+    self.date_format = self. \
+      get_number_format(date_string)
+
+  def date_ordinal(self, value, format_source):
+    # Offset of the date value
+    # for the date of 1900-01-00
+    offset = 693594
+
+    date_value = datetime.strptime(
+                   value, format_source)
+    return date_value.toordinal() - offset
 
   def write_entry(self, row, fields, keys, values):
     pairs = dict(zip(keys, values))
@@ -184,13 +199,14 @@ class FakturSample:
         # date special case
         if 'type' in metadata.keys() \
         and metadata['type'] == 'date':
-          if field_key=='Tanggal': cell.String = \
-            datetime.strptime(value, "%d/%m/%Y"). \
-            strftime("%Y-%m-%d")
+          if field_key=='Tanggal':
+              cell.Value = self. \
+                date_ordinal(value, "%d/%m/%Y")
           elif field_key=='Timestamp':
-            if len(value) > 8: cell.String = \
-              datetime.strptime(value[0:8], "%Y%m%d"). \
-              strftime("%Y-%m-%d")
+            if len(value) > 8:
+              cell.Value = self. \
+                date_ordinal(value[0:8], "%Y%m%d")
+          cell.NumberFormat = self.date_format
 
         # money special case
         elif 'type' in metadata.keys() \
@@ -209,8 +225,21 @@ class FakturSample:
 
       elif field_key=='Lengkap':
         faktur = "%013s" % pairs["Faktur"]
-        faktur = faktur[:3] +'-'+ faktur[3:5] +'.'+ faktur[5:]
-        cell.String = pairs["Kode"]+pairs["Ganti"]+"."+faktur
+        faktur = faktur[:3] +'-'+ \
+                 faktur[3:5] +'.'+ faktur[5:]
+        cell.String = pairs["Kode"] + \
+                 pairs["Ganti"] + "." + faktur
+
+  def process_entry(self, row, line):
+    values = self.split_quotes(line)
+
+    match values[0]:
+      case "FK"  : self.write_entry (row,
+        self.fields_fk,   self.keys_fk,   values)
+      case "FAPR": self.write_entry (row,
+        self.fields_fapr, self.keys_fapr, values)
+      case "OF"  : self.write_entry (row,
+        self.fields_of,   self.keys_of,   values)
 
   def run(self):
     # open blank sheet
@@ -227,22 +256,11 @@ class FakturSample:
       lines = f.readlines()
       f.close()
 
-    # write entries
+    # write entries, ignore top headers
     row = 5
-
-    # ignore top headers
     for line in lines[3:]:
       row += 1
-
-      values = self.split_quotes(line)
-
-      match values[0]:
-        case "FK"  : self.write_entry (
-            row, self.fields_fk,   self.keys_fk,   values)
-        case "FAPR": self.write_entry (
-            row, self.fields_fapr, self.keys_fapr, values)
-        case "OF"  : self.write_entry (
-            row, self.fields_of,   self.keys_of,   values)
+      self.process_entry(row, line)
 
 def main():
   filename = '/home/epsi/Documents'+ \
