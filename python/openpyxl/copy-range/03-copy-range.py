@@ -57,8 +57,8 @@ class CopyRange:
 
 # Main: Program Entry Point
 def main():
-  file_source = "source.xlsx"
-  file_target = "target.xlsx"
+  file_source = "source-en.xlsx"
+  file_target = "target-en.xlsx"
 
   wb = load_workbook(file_source)
   ws = wb["Example"]

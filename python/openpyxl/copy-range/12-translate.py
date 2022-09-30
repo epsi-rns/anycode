@@ -19,7 +19,7 @@ def get_fields_mapping():
     'tanggal_approval': { 'source': 'M7', 'target': 'D7' },
     'keterangan'      : { 'source': 'N7', 'target': 'I12' },
     'penandatangan'   : { 'source': 'O7', 'target': 'D8' },
-    'referensi'       : { 'source': 'P7', 'target': 'G6' },
+    'referensi'       : { 'source': 'P7', 'target': 'I6' },
     'user_perekam'    : { 'source': 'Q7', 'target': 'D10' },
     'tanggal_rekam'   : { 'source': 'R7', 'target': 'D9' },
     'user_pengubah'   : { 'source': 'S7', 'target': 'D12' },
@@ -37,6 +37,9 @@ def copy_row(ws_source, ws_target):
 
     cell_target.value = cell_source.value
 
+    if field=='nama':
+       print(cell_source.value)
+
 # Main: Program Entry Point
 def main():
   file_source = "data.xlsx"
@@ -44,7 +47,7 @@ def main():
 
   wb = load_workbook(file_source)
   ws_template = wb["Empty"]
-  ws_source   = wb["Source"]
+  ws_source   = wb["Source-id"]
   ws_target   = wb.copy_worksheet(ws_template)
   ws_target.title = "Target"
   wb.active = ws_target

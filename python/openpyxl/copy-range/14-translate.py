@@ -81,7 +81,7 @@ class TranslateRow:
       'tanggal_approval': { 'source': 'M7', 'target': 'D7' },
       'keterangan'      : { 'source': 'N7', 'target': 'I12' },
       'penandatangan'   : { 'source': 'O7', 'target': 'D8' },
-      'referensi'       : { 'source': 'P7', 'target': 'G6' },
+      'referensi'       : { 'source': 'P7', 'target': 'I6' },
       'user_perekam'    : { 'source': 'Q7', 'target': 'D10' },
       'tanggal_rekam'   : { 'source': 'R7', 'target': 'D9' },
       'user_pengubah'   : { 'source': 'S7', 'target': 'D12' },
@@ -113,6 +113,9 @@ class TranslateRow:
 
         cell_target.value = cell_source.value
 
+        if field in ['nama', 'name']:
+           print(cell_source.value)
+
 # Main: Program Entry Point
 def main():
   file_source = "data.xlsx"
@@ -120,13 +123,13 @@ def main():
 
   wb = load_workbook(file_source)
   ws_template = wb["Empty"]
-  ws_source   = wb["Source"]
+  ws_source   = wb["Source-en"]   # example "06-Jun"
   ws_target   = wb.copy_worksheet(ws_template)
-  ws_target.title = "Target"
+  ws_target.title = "Target"      # example "06-Form-Jun"
   wb.active = ws_target
   
   cr = TranslateRow(ws_source, ws_target)
-  cr.run(1, 8)
+  cr.run(1, 3)
 
   # Save the file
   wb.save(file_target)

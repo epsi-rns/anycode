@@ -13,26 +13,26 @@ class TranslateRow:
   def get_fields_mapping(self):
     # declare all field coordinate
     return {
-      'nomor' : { 'source': 'A7', 'target': 'B5' },
-      'nama'  : { 'source': 'B7', 'target': 'C5' },
-      'npwp'  : { 'source': 'C7', 'target': 'F5' },
-      'nomor_faktur'    : { 'source': 'D7', 'target': 'I5' },
-      'tanggal_faktur'  : { 'source': 'E7', 'target': 'D6' },
-      'masa'            : { 'source': 'F7', 'target': 'G7' },
-      'tahun'           : { 'source': 'G7', 'target': 'G8' },
-      'status_faktur'   : { 'source': 'H7', 'target': 'I10' },
-      'dpp'    : { 'source': 'I7', 'target': 'J7' },
-      'ppn'    : { 'source': 'J7', 'target': 'J8' },
-      'ppnbm'  : { 'source': 'K7', 'target': 'J9' },
-      'status_approval' : { 'source': 'L7', 'target': 'I11' },
-      'tanggal_approval': { 'source': 'M7', 'target': 'D7' },
-      'keterangan'      : { 'source': 'N7', 'target': 'I12' },
-      'penandatangan'   : { 'source': 'O7', 'target': 'D8' },
-      'referensi'       : { 'source': 'P7', 'target': 'G6' },
-      'user_perekam'    : { 'source': 'Q7', 'target': 'D10' },
-      'tanggal_rekam'   : { 'source': 'R7', 'target': 'D9' },
-      'user_pengubah'   : { 'source': 'S7', 'target': 'D12' },
-      'tanggal_ubah'    : { 'source': 'T7', 'target': 'D11' },
+      'id'    : { 'source': 'A7', 'target': 'B5' },
+      'name'  : { 'source': 'B7', 'target': 'C5' },
+      'taxpayer_id'     : { 'source': 'C7', 'target': 'F5' },
+      'tax_inv_id'      : { 'source': 'D7', 'target': 'I5' },
+      'tax_inv_date'    : { 'source': 'E7', 'target': 'D6' },
+      'month_period'    : { 'source': 'F7', 'target': 'G7' },
+      'year'            : { 'source': 'G7', 'target': 'G8' },
+      'tax_inv_status'  : { 'source': 'H7', 'target': 'I10' },
+      'price'  : { 'source': 'I7', 'target': 'J7' },
+      'vat'    : { 'source': 'J7', 'target': 'J8' },
+      'vat_lux': { 'source': 'K7', 'target': 'J9' },
+      'approval_status' : { 'source': 'L7', 'target': 'I11' },
+      'approval_date'   : { 'source': 'M7', 'target': 'D7' },
+      'description'     : { 'source': 'N7', 'target': 'I12' },
+      'signatory_user'  : { 'source': 'O7', 'target': 'D8' },
+      'reference'       : { 'source': 'P7', 'target': 'I6' },
+      'record_user'     : { 'source': 'Q7', 'target': 'D10' },
+      'record_date'     : { 'source': 'R7', 'target': 'D9' },
+      'update_user'     : { 'source': 'S7', 'target': 'D12' },
+      'update_date'     : { 'source': 'T7', 'target': 'D11' },
     }
 
   def run(self, start, end):
@@ -55,6 +55,9 @@ class TranslateRow:
 
         cell_target.value = cell_source.value
 
+        if field in ['nama', 'name']:
+           print(cell_source.value)
+
 # Main: Program Entry Point
 def main():
   file_source = "data.xlsx"
@@ -62,13 +65,13 @@ def main():
 
   wb = load_workbook(file_source)
   ws_template = wb["Empty"]
-  ws_source   = wb["Source"]
+  ws_source   = wb["Source-en"]   # example "06-Jun"
   ws_target   = wb.copy_worksheet(ws_template)
-  ws_target.title = "Target"
+  ws_target.title = "Target"      # example "06-Form-Jun"
   wb.active = ws_target
   
   cr = TranslateRow(ws_source, ws_target)
-  cr.run(1, 8)
+  cr.run(1, 3)
 
   # Save the file
   wb.save(file_target)
