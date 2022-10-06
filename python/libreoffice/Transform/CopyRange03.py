@@ -2,28 +2,27 @@
 from __future__ import unicode_literals
 
 class CopyRange03:
-  def __init__(self):
+  def __init__(self, sName, tName):
     # save initial parameter
     desktop     = XSCRIPTCONTEXT.getDesktop()
     model       = desktop.getCurrentComponent()
     self.sheets = model.Sheets
 
-  def copySheet(self, sName, tName):
-    sheets = self.sheets
+    self.sName = sName
+    self.tName = tName
 
-    sheets.copyByName(
-      sName, tName, len(sheets))
-    self.sSheet = sheets.getByName(sName)
-    self.tSheet = sheets.getByName(tName)
+  def copySheet(self):
+    self.sheets.copyByName(
+      self.sName, self.tName, len(self.sheets))
 
   def calculateOffset(self, rangeAddr, index):
     rStart  = rangeAddr.StartRow
     rEnd    = rangeAddr.EndRow
 
     rHeight = rEnd - rStart
-    return (rHeight + 1) * (index-1)
+    return (rHeight + 1) * (index - 1)
 
-  def copyRange(self, strRange, rowCount):
+  def copyRange(self, strRange, index):
     sSheet = self.sSheet
     tSheet = self.tSheet
 
@@ -32,44 +31,48 @@ class CopyRange03:
     srStart  = sRangeAddr.StartRow
     scStart  = sRangeAddr.StartColumn
 
-    masterIndices = range(1, rowCount + 1)
-    for index in masterIndices:
-      Offset = self.calculateOffset(sRangeAddr, index)
-      tCell  = tSheet.getCellByPosition(\
-        scStart, srStart + Offset)
-      tCellAddr = tCell.CellAddress
+    Offset = self.calculateOffset(sRangeAddr, index)
+    tCell  = tSheet.getCellByPosition(\
+      scStart, srStart + Offset)
+    tCellAddr = tCell.CellAddress
 
-      sSheet.copyRange(tCellAddr, sRangeAddr)
+    sSheet.copyRange(tCellAddr, sRangeAddr)
 
-  def setRangeHeights(self, strRange, rowCount):
-    cellRange  = self.sSheet.getCellRangeByName(strRange)
-    sRangeAddr = cellRange.RangeAddress
+  def setRangeHeights(self, strRange, index):
+    sCellRange = self.sSheet.getCellRangeByName(strRange)
+    sRangeAddr = sCellRange.RangeAddress
     srStart  = sRangeAddr.StartRow
     srEnd    = sRangeAddr.EndRow
 
     sRows  = self.sSheet.getRows()
     tRows  = self.tSheet.getRows()
 
-    masterIndices = range(1, rowCount + 1)
-    for index in masterIndices:
-      Offset = self.calculateOffset(sRangeAddr, index)
+    Offset = self.calculateOffset(sRangeAddr, index)
 
-      detailIndices = range(srStart, srEnd + 1) 
-      for row in detailIndices:
-        tRows.getByIndex(row + Offset).Height = \
-          sRows.getByIndex(row).Height
+    detailIndices = range(srStart, srEnd + 1) 
+    for row in detailIndices:
+      tRows.getByIndex(row + Offset).Height = \
+        sRows.getByIndex(row).Height
 
   def setPrintArea(self, strRange):
     cellRange = self.tSheet.getCellRangeByName(strRange)
     rangeAddr = cellRange.RangeAddress
     self.tSheet.setPrintAreas([rangeAddr])
 
-  def run(self):
-    self.copySheet('Example-id', 'Result-id')
-    self.copyRange('B4:K13', 5)
-    self.setRangeHeights('B4:K13', 5)
-    self.setPrintArea('A1:L53')
+  def run(self, stringRange, index):
+    self.sSheet = self.sheets.getByName(self.sName)
+    self.tSheet = self.sheets.getByName(self.tName)
+
+    self.copyRange(stringRange, index)
+    self.setRangeHeights(stringRange, index)
 
 def main():
-  sample = CopyRange03()
-  sample.run()
+  template = CopyRange03('Example-id', 'Result-id')
+  template.copySheet()
+
+  rowCount = 5
+  masterIndices = range(1, rowCount + 1)
+  for index in masterIndices:
+    template.run('B4:K13', index)
+
+  template.setPrintArea('A1:L53')
