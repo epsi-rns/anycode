@@ -32,7 +32,8 @@ class CopyRange03:
     srStart  = sRangeAddr.StartRow
     scStart  = sRangeAddr.StartColumn
 
-    for index in range(1, rowCount + 1):
+    masterIndices = range(1, rowCount + 1)
+    for index in masterIndices:
       Offset = self.calculateOffset(sRangeAddr, index)
       tCell  = tSheet.getCellByPosition(\
         scStart, srStart + Offset)
@@ -49,10 +50,12 @@ class CopyRange03:
     sRows  = self.sSheet.getRows()
     tRows  = self.tSheet.getRows()
 
-    for index in range(1, rowCount + 1):
+    masterIndices = range(1, rowCount + 1)
+    for index in masterIndices:
       Offset = self.calculateOffset(sRangeAddr, index)
 
-      for row in range(srStart, srEnd + 1):
+      detailIndices = range(srStart, srEnd + 1) 
+      for row in detailIndices:
         tRows.getByIndex(row + Offset).Height = \
           sRows.getByIndex(row).Height
 
@@ -62,7 +65,7 @@ class CopyRange03:
     self.tSheet.setPrintAreas([rangeAddr])
 
   def run(self):
-    self.copySheet('Example', 'Result')
+    self.copySheet('Example-id', 'Result-id')
     self.copyRange('B4:K13', 5)
     self.setRangeHeights('B4:K13', 5)
     self.setPrintArea('A1:L53')

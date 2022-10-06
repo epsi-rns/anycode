@@ -25,6 +25,6 @@ class CopyRange01:
     self.addressTest()
 
 def main():
-  sample = CopyRange01('Example')
+  sample = CopyRange01('Example-en')
   sample.run()
 

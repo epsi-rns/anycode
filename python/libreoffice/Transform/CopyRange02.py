@@ -44,5 +44,5 @@ class CopyRange02:
     self.setRangeHeights('B4:K13', 'B14')
 
 def main():
-  sample = CopyRange02('Example')
+  sample = CopyRange02('Example-en')
   sample.run()
