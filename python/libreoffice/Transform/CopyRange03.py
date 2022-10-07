@@ -67,7 +67,7 @@ class CopyRange03:
     self.setRangeHeights(stringRange, index)
 
 def main():
-  template = CopyRange03('Example-id', 'Result-id')
+  template = CopyRange03('Example-en', 'Result-en')
   template.copySheet()
 
   rowCount = 5

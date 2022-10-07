@@ -3,16 +3,16 @@ from __future__ import unicode_literals
 
 class TransformRow01:
   def __init__(self, eName, sName, tName):
-    # save initial parameter
     desktop     = XSCRIPTCONTEXT.getDesktop()
     model       = desktop.getCurrentComponent()
     self.sheets = model.Sheets
 
+    # save initial parameter
     self.eName = eName
     self.sName = sName
     self.tName = tName
 
-  def get_fields_mapping(self):
+  def getFieldsMapping(self):
     # declare all field coordinate
     return {
       'id'    : { 'source': 'A7', 'target': 'B5' },
@@ -46,7 +46,7 @@ class TransformRow01:
     self.sSheet = sheets.getByName(self.sName)
     self.tSheet = sheets.getByName(self.tName)
 
-  def copy_field(self, pair):
+  def copyField(self, pair):
     addrSource = pair['source']
     addrTarget = pair['target']
 
@@ -60,13 +60,13 @@ class TransformRow01:
       case "VALUE" : targetCell.Value  = sourceCell.Value
       case "TEXT"  : targetCell.String = sourceCell.String
 
-  def run(self, index):
+  def run(self):
     self.copySheet()
-    fields = self.get_fields_mapping()
+    fields = self.getFieldsMapping()
 
     for field, pair in fields.items():
-      self.copy_field(pair)
+      self.copyField(pair)
 
 def main():
   sample = TransformRow01('Empty-en', 'Source-en', 'Target-en')
-  sample.run(1)
+  sample.run()

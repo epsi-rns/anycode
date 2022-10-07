@@ -3,11 +3,11 @@ from __future__ import unicode_literals
 
 class CopyRange03:
   def __init__(self, sName, tName):
-    # save initial parameter
     desktop     = XSCRIPTCONTEXT.getDesktop()
     model       = desktop.getCurrentComponent()
     self.sheets = model.Sheets
 
+    # save initial parameter
     self.sName = sName
     self.tName = tName
 
@@ -77,7 +77,7 @@ class TransformRow03:
     self.sName = sName
     self.tName = tName
 
-  def get_fields_mapping(self):
+  def getFieldsMapping(self):
     # declare all field coordinate
     return {
       'id'    : { 'source': 'A7', 'target': 'B5' },
@@ -111,7 +111,7 @@ class TransformRow03:
     self.sSheet = sheets.getByName(self.sName)
     self.tSheet = sheets.getByName(self.tName)
 
-  def copy_field(self, pair, rowHeight, index):
+  def copyField(self, pair, rowHeight, index):
     addrSource = pair['source']
     addrTarget = pair['target']
 
@@ -132,7 +132,6 @@ class TransformRow03:
       case "TEXT"  : tCell.String = sCell.String
 
   def calculateHeight(self, stringRange):
-
     eCellRange = self.eSheet.getCellRangeByName(stringRange)
     eRangeAddr = eCellRange.RangeAddress
 
@@ -143,7 +142,7 @@ class TransformRow03:
 
   def run(self, stringRange, printArea, rowCount):
     self.copySheet()
-    fields = self.get_fields_mapping()
+    fields = self.getFieldsMapping()
 
     template = CopyRange03(self.eName, self.tName)
     rowHeight = self.calculateHeight(stringRange)
@@ -152,7 +151,7 @@ class TransformRow03:
     for index in masterIndices:
       template.run(stringRange, index)
       for field, pair in fields.items():
-        self.copy_field(pair, rowHeight, index)
+        self.copyField(pair, rowHeight, index)
 
     template.setPrintArea(printArea)
 
