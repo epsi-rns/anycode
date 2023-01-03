@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 90vh;
+  perspective: 450px;
+}
+
+div.dasar {
+  width: 40vh;
+  height: 40vh;
+  transform-style: preserve-3d;
+  animation: putarSamping 10s infinite linear;
+}
+
+@keyframes putarSamping {
+  0% {
+    transform: rotateX(-25deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(-25deg) rotateY(360deg);
+  }
+}
+
+div.kubus {
+  position: absolute;
+  width: 40vh;
+  height: 40vh;
+  background: rgba(150, 150, 150, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Verdana';
+  font-size: 5vh;
+}
+
+div.kubus.depan {
+  transform: translateZ(20vh);
+}
+div.kubus.belakang {
+  transform: rotateY(180deg) translateZ(20vh);
+}
+div.kubus.kanan {
+  transform: rotateY(90deg) translateZ(20vh);
+}
+div.kubus.kiri {
+  transform: rotateY(-90deg) translateZ(20vh);
+}
+div.kubus.atas {
+  transform: rotateX(90deg) translateZ(20vh);
+}
+div.kubus.bawah {
+  transform: rotateX(-90deg) translateZ(20vh);
+}
+div.kubus.bawah.bayangan {
+  transform: rotateX(-90deg) translateZ(30vh);
+  box-shadow: 0 0 4rem 1rem rgb(137, 255, 0);
+}
+
+div.kubus:not(.atas),
+div.kubus:not(.bawah) {
+  background: linear-gradient(
+    0deg,
+    rgba(137, 255, 0, 0.9) 0%,
+    rgba(30, 30, 30, 0.9) 70%,
+    rgba(10, 10, 10, 0.9) 100%
+  );
+}
+
+div.kubus.atas {
+  background: rgba(10, 10, 10, 0.9);
+}
+
+div.kubus.bawah {
+  background: rgba(137, 255, 0, 0.9);
+}

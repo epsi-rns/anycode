@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your mission. Good Luck!</title>
+<script>
+document.addEventListener(
+  "DOMContentLoaded", function(event) {
+     const websocket = new WebSocket("ws://localhost:8765");
+     const output = document.getElementById("output");
+
+     websocket.onmessage = function(event) {
+       const data = event.data; 
+       output.innerHTML += `<p>Received: ${data}</p>`;
+     }
+});
+</script>
+</head>
+
+<body>
+    <h1>Your mission. Good Luck!</h1>
+    <div id="output"></div>
+</body>
+</html>
