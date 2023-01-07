@@ -11,7 +11,7 @@ class Xl2WebExample:
     self.port = port
 
   # websocket handler
-  async def handler(self, websocket, path):
+  async def __handler(self, websocket, path):
     self.websocket = websocket
 
     async for changes in awatch(self.filepath):
@@ -25,11 +25,11 @@ class Xl2WebExample:
   async def main(self):
     # Start the server
     server = await websockets.serve(
-      self.handler, self.site, self.port)
+      self.__handler, self.site, self.port)
     await server.wait_closed()
 
 # Program Entry Point
 example = Xl2WebExample(
-  '/home/epsi/awatch', 'test-a.xlsx',
+  '/home/epsi/awatch/code', 'test-a.xlsx',
   'localhost', 8765)
 asyncio.run(example.main())

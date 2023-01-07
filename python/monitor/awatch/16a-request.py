@@ -12,7 +12,7 @@ class Xl2WebExample:
     self.port = port
 
   # miscellanous helper
-  def pack_data(self, fullname):
+  def __pack_data(self, fullname):
     # reopen the worksheet all over again
     wb = load_workbook(self.filename)
     ws = wb["Example"]
@@ -25,7 +25,7 @@ class Xl2WebExample:
       "val3": ws['C4'].value
      }
 
-  def dump_data(self, data):
+  def __dump_data(self, data):
     print("Timestamp     : %s" % data["time"])
     print("File Modified : %s" % data["file"])
     print("Data 1: %s" % data["val1"])
@@ -34,36 +34,36 @@ class Xl2WebExample:
     print()
 
   # websocket related
-  async def send_data(self, fullname):
-    event_data = self.pack_data(fullname)
-    self.dump_data(event_data)
+  async def __send_data(self, fullname):
+    event_data = self.__pack_data(fullname)
+    self.__dump_data(event_data)
     await self.websocket.send(
       json.dumps(event_data))
 
-  async def monitor_localfile(self):
+  async def __monitor_localfile(self):
     async for changes in awatch(self.filepath):
       xlsx = self.filepath + '/' + self.filename
 
       for change in changes:
         if change[1] == xlsx:
           print(change[0])
-          await self.send_data(change[1])
+          await self.__send_data(change[1])
 
-  async def monitor_webclient(self):
+  async def __monitor_webclient(self):
     while True:
       message = await self.websocket.recv()
       print(message)
-      await self.send_data(None)
+      await self.__send_data(None)
 
   # websocket handler
-  async def handler(self, websocket, path):
+  async def __handler(self, websocket, path):
     self.websocket = websocket
 
     task_localfile = asyncio.create_task(
-      self.monitor_localfile())
+      self.__monitor_localfile())
 
     task_webclient = asyncio.create_task(
-      self.monitor_webclient())
+      self.__monitor_webclient())
 
     # run these two coroutines concurrently
     await(task_localfile)
@@ -72,11 +72,16 @@ class Xl2WebExample:
   async def main(self):
     # Start the server
     server = await websockets.serve(
-      self.handler, self.site, self.port)
+      self.__handler, self.site, self.port)
     await server.wait_closed()
 
 # Program Entry Point
 example = Xl2WebExample(
-  '/home/epsi/awatch', 'test-a.xlsx',
+  '/home/epsi/awatch/code', 'test-a.xlsx',
   'localhost', 8765)
-asyncio.run(example.main())
+  
+try:
+  asyncio.run(example.main())
+except KeyboardInterrupt:
+  print('Goodbye!')
+
